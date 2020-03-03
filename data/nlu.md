@@ -62,3 +62,6 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+
+## intent:chuck_norris_joke
+- i want a joke
