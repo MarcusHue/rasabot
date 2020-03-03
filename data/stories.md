@@ -2,7 +2,7 @@
 * greet
   - utter_greet
 * mood_great
-  - action_chuch_norris_joke
+  - action_hello_world
 
 ## sad path 1
 * greet
