@@ -24,7 +24,6 @@ class ActionHelloWorld(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         joke = re.get('https://api.chucknorris.io/jokes/random').json()['value']
-
         dispatcher.utter_message(text=joke)
 
         return []

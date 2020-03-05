@@ -1,1 +1,4 @@
 repository.json
+*.tar.gz
+
+credentials.yml
