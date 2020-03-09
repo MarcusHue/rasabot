@@ -6,9 +6,11 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - ask_faq
   - ask_mood
   - give_number
+  - ask_faq_the_dialog_manager
+  - ask_faq_chatbot_consultant
+  - ask_faq_conversational_technology
 
 actions:
 - utter_greet
@@ -67,5 +69,5 @@ templates:
   utter_faq_conversational_technology:
   - text: "I am conversational technology. /n And so is the google assistant, amazon alexa or the voicebot who answers your calls when you ring up your utility company. Marcus helps with all of those."
   
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+session_expiration_time: 60
+carry_over_slots_to_new_session: true
