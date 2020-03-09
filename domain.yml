@@ -7,7 +7,7 @@ intents:
   - mood_unhappy
   - bot_challenge
   - ask_faq
-  - ask_meed
+  - ask_mood
   - give_number
 
 actions:
