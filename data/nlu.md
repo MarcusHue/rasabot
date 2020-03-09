@@ -79,3 +79,14 @@
 
 ## intent:ask_faq_chatbot
 - What exactly is a chatbot?
+
+## intent:ask_faq_marcus_who
+- Who is Marcus?
+- Who runs the dialog manager?
+
+## intent:ask_more_information
+- Tell me more
+- Give me more information
+- That is interesting
+- Tell me more about [rasa](tech_stack)
+- Tell me more about [parloa](tech_stack)
