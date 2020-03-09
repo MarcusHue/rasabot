@@ -54,7 +54,7 @@ responses:
       technologies” and if so, he keeps helping while getting and implementing the
       technology.
   utter_faq_conversational_technology:
-  - text: I am conversational technology. /n And so is the google assistant, amazon
+  - text: I am conversational technology. \n\n And so is the google assistant, amazon
       alexa or the voicebot who answers your calls when you ring up your utility company.
       Marcus helps with all of those.
   utter_faq_chatbot:
