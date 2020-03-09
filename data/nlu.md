@@ -5,11 +5,13 @@
 - good morning
 - good evening
 - hey there
+- Hi
 
 ## intent:ask_mood
 - i am fine, how are you?
 - how are you?
 - good, how about you?
+- I am fine, how about you?
 
 ## intent:goodbye
 - bye
@@ -41,6 +43,7 @@
 - I am feeling very good
 - I am great
 - I'm good
+- good
 
 ## intent:mood_unhappy
 - sad
@@ -63,6 +66,7 @@
 ## intent:ask_faq_the_dialog_manager
 - what is this all about?
 - what is the dialog manager?
+- True that! What is this about?
 
 ## intent:ask_faq_chatbot_consultant
 - what is a chatbot consultant?
@@ -79,3 +83,6 @@
 
 ## intent:ask_faq_chatbot
 - What exactly is a chatbot?
+- what is a chatbot?
+- what is a chatbor?
+- What is a chatbot?
