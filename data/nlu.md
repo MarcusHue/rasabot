@@ -76,3 +76,6 @@
 - my number is [0160 23 71 68 01](phone_number)
 - [017825761947867](phone_number)
 - he can call me on [0151 96696654](phone_number)
+
+## intent:ask_faq_chatbot
+- What exactly is a chatbot?

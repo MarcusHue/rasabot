@@ -21,3 +21,8 @@
   - utter_ask_number
 * give_number
   - utter_goodbye
+
+## New Story
+
+* ask_faq_chatbot
+    - utter_faq_chatbot

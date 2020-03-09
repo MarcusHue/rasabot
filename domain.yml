@@ -1,17 +1,58 @@
+session_config:
+  session_expiration_time: 0.0
+  carry_over_slots_to_new_session: true
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - ask_mood
-  - give_number
-  - ask_faq_the_dialog_manager
-  - ask_faq_chatbot_consultant
-  - ask_faq_conversational_technology
-
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- ask_mood
+- give_number
+- ask_faq_the_dialog_manager
+- ask_faq_chatbot_consultant
+- ask_faq_conversational_technology
+- ask_faq_chatbot
+entities:
+- phone_number
+responses:
+  utter_initiate_number:
+  - text: Wanna know more?
+  utter_ask_number:
+  - text: Than give me your phone number, and Marcus will give you a call ;-)
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_akward:
+  - text: Well.. I don't know how to say that...
+  utter_no_feelings:
+  - text: "... I am a bot, so I honestly don't feel all too much."
+  utter_faq_the_dialog_manager:
+  - text: The Dialog Manager is a chatbot consultancy. If your company is considering
+      to get a chatbot, The Dialog Manager will help along the way.
+  utter_faq_chatbot_consultant:
+  - text: He helps companies to decide whether they should invest into “conversational
+      technologies” and if so, he keeps helping while getting and implementing the
+      technology.
+  utter_faq_conversational_technology:
+  - text: I am conversational technology. /n And so is the google assistant, amazon
+      alexa or the voicebot who answers your calls when you ring up your utility company.
+      Marcus helps with all of those.
+  utter_faq_chatbot:
+  - text: A chatbot is a computer that understands what you write or say and answers
+      (sometimes) sensibly.
 actions:
 - utter_greet
 - utter_cheer_up
@@ -27,47 +68,4 @@ actions:
 - utter_faq_the_dialog_manager
 - utter_faq_chatbot_consultant
 - utter_faq_conversational_technology
-
-templates:
-  utter_initiate_number:
-  - text: "Wanna know more?"
-
-  utter_ask_number:
-  - text: "Than give me your phone number, and Marcus will give you a call ;-)"
-
-  utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
-  utter_akward:
-  - text: "Well.. I don't know how to say that..."
-
-  utter_no_feelings:
-  - text: "... I am a bot, so I honestly don't feel all too much."
-  
-  utter_faq_the_dialog_manager:
-  - text: "The Dialog Manager is a chatbot consultancy. If your company is considering to get a chatbot, The Dialog Manager will help along the way."
-  
-  utter_faq_chatbot_consultant:
-  - text: "He helps companies to decide whether they should invest into “conversational technologies” and if so, he keeps helping while getting and implementing the technology."
-
-  utter_faq_conversational_technology:
-  - text: "I am conversational technology. /n And so is the google assistant, amazon alexa or the voicebot who answers your calls when you ring up your utility company. Marcus helps with all of those."
-  
-session_expiration_time: 60
-carry_over_slots_to_new_session: true
+- utter_faq_chatbot
