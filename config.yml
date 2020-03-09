@@ -1,5 +1,10 @@
 language: en
-pipeline: supervised_embeddings
+pipeline: 
+- name: "supervised_embeddings"
+- name: "WhitespaceTokenizer"
+- name: "CountVectorsFeaturizer"
+- name: "EmbeddingIntentClassifier"
+- name: "ResponseSelector"
 policies:
 - name: MemoizationPolicy
 - name: KerasPolicy
