@@ -6,6 +6,11 @@
 - good evening
 - hey there
 
+## intent:ask_mood
+- i am fine, how are you?
+- how are you?
+- good, how about you?
+
 ## intent:goodbye
 - bye
 - goodbye
@@ -66,3 +71,8 @@
 ## intent: ask_faq/conversational_technology
 - what is conversational technology?
 - what the heck is conversational technology?
+
+## intent: give_number
+- my number is [0160 23 71 68 01](phone_number)
+- [017825761947867](phone_number)
+- he can call me on [0151 96696654](phone_number)
