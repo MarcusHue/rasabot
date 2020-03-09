@@ -54,3 +54,15 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+
+## intent:ask_faq/the_dialog_manager
+- what is this all about?
+- what is the dialog manager?
+
+## intent:ask_faq/chatbot_consultant
+- what is a chatbot consultant?
+- what does a chatbot consultant do?
+
+## intent: ask_faq/conversational_technology
+- what is conversational technology?
+- what the heck is conversational technology?
