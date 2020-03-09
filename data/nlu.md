@@ -60,7 +60,7 @@
 - am I talking to a bot?
 - am I talking to a human?
 
-## intent:ask_faq/the_dialog_manager?
+## intent:ask_faq/the_dialog_manager
 - what is this all about?
 - what is the dialog manager?
 
