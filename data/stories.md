@@ -10,12 +10,12 @@
 * ask_mood
   - utter_akward
   - utter_no_feelings
-* ask_faq
-  - respond_faq
-* ask_faq
-  - respond_faq
-* ask_faq
-  - respond_faq
+* ask_faq_the_dialog_manager
+  - utter_faq_the_dialog_manager
+* ask_faq_chatbot_consultant
+  - utter_faq_chatbot_consultant
+* ask_faq_conversational_technology
+  - utter_faq_conversational_technology
   - utter_initiate_number
 * affirm
   - utter_ask_number

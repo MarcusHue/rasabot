@@ -60,19 +60,19 @@
 - am I talking to a bot?
 - am I talking to a human?
 
-## intent:ask_faq/the_dialog_manager
+## intent:ask_faq_the_dialog_manager
 - what is this all about?
 - what is the dialog manager?
 
-## intent:ask_faq/chatbot_consultant
+## intent:ask_faq_chatbot_consultant
 - what is a chatbot consultant?
 - what does a chatbot consultant do?
 
-## intent: ask_faq/conversational_technology
+## intent:ask_faq_conversational_technology
 - what is conversational technology?
 - what the heck is conversational technology?
 
-## intent: give_number
+## intent:give_number
 - my number is [0160 23 71 68 01](phone_number)
 - [017825761947867](phone_number)
 - he can call me on [0151 96696654](phone_number)

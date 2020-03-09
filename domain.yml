@@ -20,9 +20,11 @@ actions:
 - action_tell_chuck_norris_joke
 - utter_akward
 - utter_no_feelings
-- respond_faq
 - utter_initiate_number
 - utter_ask_number
+- utter_faq_the_dialog_manager
+- utter_faq_chatbot_consultant
+- utter_faq_conversational_technology
 
 templates:
   utter_initiate_number:
@@ -55,7 +57,15 @@ templates:
 
   utter_no_feelings:
   - text: "... I am a bot, so I honestly don't feel all too much."
+  
+  utter_faq_the_dialog_manager:
+  - text: "The Dialog Manager is a chatbot consultancy. If your company is considering to get a chatbot, The Dialog Manager will help along the way."
+  
+  utter_faq_chatbot_consultant:
+  - text: "He helps companies to decide whether they should invest into “conversational technologies” and if so, he keeps helping while getting and implementing the technology."
 
-session_config:
+  utter_faq_conversational_technology:
+  - text: "I am conversational technology. /n And so is the google assistant, amazon alexa or the voicebot who answers your calls when you ring up your utility company. Marcus helps with all of those."
+  
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
