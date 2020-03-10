@@ -51,17 +51,17 @@ responses:
   utter_faq_the_dialog_manager:
   - text: The Dialog Manager is a chatbot consultancy. If your company is considering
       to get a chatbot, The Dialog Manager will help along the way.
-      buttons:
+    buttons:
     - title: Learn more
       payload: /ask_faq_the_dialog_manager_location
   utter_faq_the_dialog_manager_location:
   - text: We are located in Norway's heart, in Hamar, to be precise.
-      buttons:
+    buttons:
     - title: Learn more
       payload: /ask_faq_the_dialog_manager_tech
   utter_faq_the_dialog_manager_tech_stack:
   - text: Our tech-stack is two-fold. I am build with rasa (www.rasa.com), which is an awesome open source chatbot framework. Most of our voicebots are build with Parloa (www.parloa.com). Parloa is a probably the best tool when it comes to voicebots. 
-      buttons:
+    buttons:
     - title: Learn more (rasa)
       payload: /ask_faq_rasa
     - title: Learn more (parloa)
