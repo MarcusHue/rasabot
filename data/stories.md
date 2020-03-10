@@ -25,18 +25,23 @@
 ## FAQ Dialog Manager
 * ask_faq_the_dialog_manager
   - utter_faq_the_dialog_manager
-* ask_more_information
 
 ## FAQ Chatbot Consultant
 * ask_faq_chatbot_consultant
   - utter_faq_chatbot_consultant
-* ask_more_information
 
 ## FAQ Conversational Technology
 * ask_faq_conversational_technology
   - utter_faq_conversational_technology
-* ask_more_information
 
 ## FAQ Intent
 * ask_faq_intent
   - utter_faq_intent
+
+## FAQ Rasa
+* ask_faq_rasa
+  - utter_faq_rasa
+
+## FAQ Parloa
+* ask_faq_parloa
+  - utter_faq_parloa
