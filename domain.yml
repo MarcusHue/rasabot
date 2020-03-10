@@ -65,7 +65,7 @@ responses:
   - text: The difficulty is the following. We computers do not quite think like you humans do. We really, really need structure. When you humans talk, it appears to us pretty messy and unstructured. In order to understand what you mean, I need to structure what you say. Most of us do this by learning to extract from your utterances your intention and possible additional informations. 
     buttons:
     - title: Learn more
-      payload: /utter_faq_intent
+      payload: /ask_faq_intent
   utter_faq_intent:
   - text: Let's take the following example. You are hungry and you want me to get you some pizza. As you have no taste at all, you want me to get you a Pizza Hawaii (the one with pineapple). When you tell me "I want to order a Pizza Hawai", I need to understand two things, firstly, that you want to order a pizza (your intention) and secondly which sort of pizza you want (the entity)
   utter_faq_marcus:
