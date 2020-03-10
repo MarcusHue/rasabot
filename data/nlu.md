@@ -68,6 +68,13 @@
 - what is the dialog manager?
 - True that! What is this about?
 
+## intent:ask_faq_the_dialog_manager_location
+- where are you located?
+- where is your HQ?
+
+## intent:ask_faq_the_dialog_manager_tech_stack
+- what kind of technologies do you use?
+
 ## intent:ask_faq_chatbot_consultant
 - what is a chatbot consultant?
 - what does a chatbot consultant do?
@@ -100,3 +107,10 @@
 - That is interesting
 - Tell me more about [rasa](tech_stack)
 - Tell me more about [parloa](tech_stack)
+
+## intent:ask_faq_rasa
+- what is rasa?
+- how do you function?
+
+## intent:ask_faq_parloa
+- what is parloa?
