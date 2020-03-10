@@ -3,17 +3,17 @@ session_config:
   carry_over_slots_to_new_session: true
 intents:
 - greet
+- ask_mood
 - goodbye
 - affirm
 - deny
 - mood_great
 - mood_unhappy
 - bot_challenge
-- ask_mood
-- give_number
 - ask_faq_the_dialog_manager
 - ask_faq_chatbot_consultant
 - ask_faq_conversational_technology
+- give_number
 - ask_faq_chatbot
 - ask_faq_marcus_who
 - ask_more_information
@@ -78,3 +78,4 @@ actions:
 - utter_faq_chatbot_consultant
 - utter_faq_conversational_technology
 - utter_faq_chatbot
+- utter_faq_marcus
