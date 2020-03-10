@@ -45,3 +45,18 @@
 ## FAQ Parloa
 * ask_faq_parloa
   - utter_faq_parloa
+
+## New Story
+
+* greet
+    - utter_greet
+* ask_faq_the_dialog_manager
+    - utter_faq_the_dialog_manager
+* ask_faq_the_dialog_manager_location
+    - utter_faq_the_dialog_manager_location
+* ask_faq_the_dialog_manager_tech
+    - utter_faq_the_dialog_manager_tech_stack
+* ask_faq_rasa
+    - utter_faq_rasa
+* ask_faq_parloa
+    - utter_faq_parloa

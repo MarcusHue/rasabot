@@ -67,10 +67,12 @@
 - what is this all about?
 - what is the dialog manager?
 - True that! What is this about?
+- Good, thanks! What is this all about?
 
 ## intent:ask_faq_the_dialog_manager_location
 - where are you located?
 - where is your HQ?
+- /ask_faq_the_dialog_manager_location
 
 ## intent:ask_faq_the_dialog_manager_tech_stack
 - what kind of technologies do you use?
@@ -111,6 +113,11 @@
 ## intent:ask_faq_rasa
 - what is rasa?
 - how do you function?
+- /ask_faq_rasa
 
 ## intent:ask_faq_parloa
 - what is parloa?
+- /ask_faq_parloa
+
+## intent:ask_faq_the_dialog_manager_tech
+- /ask_faq_the_dialog_manager_tech
