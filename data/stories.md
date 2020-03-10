@@ -1,4 +1,4 @@
-## first trial
+## Long Conversation
 * greet
   - utter_greet
 * ask_mood
@@ -17,10 +17,10 @@
   - utter_goodbye
 
 ## FAQ Chatbot
-
 * ask_faq_chatbot
     - utter_faq_chatbot
 * ask_more_information
+    - utter_faq_chatbot_detail
 
 ## FAQ Dialog Manager
 * ask_faq_the_dialog_manager
@@ -36,3 +36,7 @@
 * ask_faq_conversational_technology
   - utter_faq_conversational_technology
 * ask_more_information
+
+## FAQ Intent
+* ask_faq_intent
+  - utter_faq_intent

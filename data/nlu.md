@@ -86,7 +86,9 @@
 - what is a chatbot?
 - what is a chatbor?
 - What is a chatbot?
-<<<<<<< HEAD
+
+## intent:ask_faq_intent
+- What is an intent?
 
 ## intent:ask_faq_marcus_who
 - Who is Marcus?
