@@ -22,7 +22,8 @@ intents:
 - ask_faq_the_dialog_manager_tech_stack
 - ask_faq_rasa
 - ask_faq_parloa
-
+- ask_faq_the_dialog_manager_tech
+- lang_ger
 entities:
 - phone_number
 - tech_stack
@@ -60,7 +61,10 @@ responses:
     - title: Learn more
       payload: /ask_faq_the_dialog_manager_tech
   utter_faq_the_dialog_manager_tech_stack:
-  - text: Our tech-stack is two-fold. I am build with rasa (www.rasa.com), which is an awesome open source chatbot framework. Most of our voicebots are build with Parloa (www.parloa.com). Parloa is a probably the best tool when it comes to voicebots. 
+  - text: Our tech-stack is two-fold. I am build with rasa (www.rasa.com), which is
+      an awesome open source chatbot framework. Most of our voicebots are build with
+      Parloa (www.parloa.com). Parloa is a probably the best tool when it comes to
+      voicebots.
     buttons:
     - title: Learn more (rasa)
       payload: /ask_faq_rasa
@@ -78,24 +82,43 @@ responses:
   - text: A chatbot is a computer that understands what you write or say and answers
       (sometimes) sensibly.
   utter_faq_chatbot_detail:
-  - text: The difficulty is the following. We computers do not quite think like you humans do. We really, really need structure. When you humans talk, it appears to us pretty messy and unstructured. In order to understand what you mean, I need to structure what you say. Most of us do this by learning to extract from your utterances your intention and possible additional informations. 
+  - text: The difficulty is the following. We computers do not quite think like you
+      humans do. We really, really need structure. When you humans talk, it appears
+      to us pretty messy and unstructured. In order to understand what you mean, I
+      need to structure what you say. Most of us do this by learning to extract from
+      your utterances your intention and possible additional informations.
     buttons:
     - title: Learn more
       payload: /ask_faq_intent
   utter_faq_intent:
-  - text: Let's take the following example. You are hungry and you want me to get you some pizza. As you have no taste at all, you want me to get you a Pizza Hawaii (the one with pineapple). When you tell me "I want to order a Pizza Hawai", I need to understand two things, firstly, that you want to order a pizza (your intention) and secondly which sort of pizza you want (the entity)
+  - text: Let's take the following example. You are hungry and you want me to get
+      you some pizza. As you have no taste at all, you want me to get you a Pizza
+      Hawaii (the one with pineapple). When you tell me "I want to order a Pizza Hawai",
+      I need to understand two things, firstly, that you want to order a pizza (your
+      intention) and secondly which sort of pizza you want (the entity)
   utter_faq_marcus:
-  - text: Marcus is the actual human being behind The Dialog Manager. 
+  - text: Marcus is the actual human being behind The Dialog Manager.
   utter_faq_rasa:
-  - text: Rasa is a quite special chatbot framework. As far as I know, it is the only one that uses machine learning not only in the NLU but also the dialog management. That way you can build significantly more complex bots with rasa. This comes, however, at a cost. When you plan to build a chatbot running on the rasa stack, you have to expect that development and testing will take a rather long time. Parloa is kinda the opposite approach.
+  - text: Rasa is a quite special chatbot framework. As far as I know, it is the only
+      one that uses machine learning not only in the NLU but also the dialog management.
+      That way you can build significantly more complex bots with rasa. This comes,
+      however, at a cost. When you plan to build a chatbot running on the rasa stack,
+      you have to expect that development and testing will take a rather long time.
+      Parloa is kinda the opposite approach.
     buttons:
     - title: Learn more (parloa)
       payload: /ask_faq_parloa
   utter_faq_parloa:
-  - text: Parloa is probably the most user friendly bot builder. At least if you are considering to deploy your bot on a voice channel. With Parloa you can go from an idea for a simple Amazon Alexa Skill to having it deployed within a day.
+  - text: Parloa is probably the most user friendly bot builder. At least if you are
+      considering to deploy your bot on a voice channel. With Parloa you can go from
+      an idea for a simple Amazon Alexa Skill to having it deployed within a day.
     buttons:
     - title: Learn more (rasa)
-      payload: /ask_faq_rasa  
+      payload: /ask_faq_rasa
+  utter_lang_ger:
+  - text: Ich spreche aktuell nur Englisch, könnte aber (fast) jede andere Sprache
+      lernen. Falls du Infos auf deutsch brauchst, gib mir deine Telefonnummer oder
+      E-Mail-Adresse und Marcus meldet sich bei dir.
 actions:
 - utter_greet
 - utter_cheer_up
@@ -118,3 +141,5 @@ actions:
 - utter_faq_the_dialog_manager_location
 - utter_faq_marcus
 - utter_faq_rasa
+- utter_faq_parloa
+- utter_lang_ger

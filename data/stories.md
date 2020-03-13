@@ -60,3 +60,10 @@
     - utter_faq_rasa
 * ask_faq_parloa
     - utter_faq_parloa
+
+## New Story
+
+* lang_ger
+    - utter_lang_ger
+* give_number
+    - utter_goodbye
