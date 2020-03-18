@@ -125,3 +125,14 @@
 
 ## intent:lang_ger
 - Guten Morgen
+- Guten Tag
+- Ich möchte einen Chatbot kaufen
+- was kostet ein Chabot?
+
+## ask_faq_references
+- What are your references?
+- Can I see some of your bots?
+- Who are your customers?
+
+## ask_setup_time
+- We are looking for a new chatbot for our [online shop](use_case). The shop is launching in three months. Could you deliver a chatbot within that time frame?
