@@ -6,12 +6,247 @@
 - good evening
 - hey there
 - Hi
+- Bom dia
+- Bonjour
+- Good Morning
+- Good morning
+- Good mourning
+- Guten Morgen
+- HELLO
+- HEY
+- HEllo
+- HI
+- HI Sara
+- Hallo
+- Hei
+- Hellllooooooo
+- Hello
+- Hello Bot
+- Hello Rasa
+- Hello Sara
+- Hello sara
+- Hello!
+- Hey
+- Hey Sara
+- Hey bot
+- Heya
+- Heylo
+- Hi
+- Hi Sara
+- Hi Sara!
+- Hi bot
+- Hi man
+- Hi rasa
+- Hi sara
+- Hi sara..
+- Hi there
+- Hi!
+- Hi'
+- Hi,
+- Hi, bot
+- Hieee
+- Hieeeeeeeeeeeee
+- Hola
+- I said, helllllloooooO!!!!
+- Well hello there ;)
+- What is up?
+- Whats up
+- Whats up my bot
+- Whats up?
+- ayyyy whaddup
+- bonjour
+- ey boss
+- good evening
+- good moring
+- good morning
+- greet
+- greetings
+- hai
+- hallo
+- hallo sara
+- halloo
+- halloooo
+- halo
+- halo sara
+- heeey
+- heelio
+- hell9o
+- hellio
+- hello
+- hello Sara
+- hello everybody
+- hello friend
+- hello hi
+- hello is anybody there
+- hello it is me again
+- hello robot
+- hello sara
+- hello sweatheart
+- hello sweet boy
+- hello there
+- hello world
+- hello, my name is [Charles Pfeffer](name)
+- hello?
+- hello]
+- hellooo
+- helloooo
+- helo
+- hey
+- hey bot
+- hey bot!
+- hey dude
+- hey hey
+- hey let's talk
+- hey rasa
+- hey sara
+- hey ther
+- hey there
+- hey there boy
+- hey there..
+- hey, let's talk
+- hey, sara!
+- heya
+- heyho
+- heyo
+- hhola
+- hi
+- hi !
+- hi Mister
+- hi again
+- hi can you speak ?
+- hi folks
+- hi friend
+- hi friends
+- hi hi
+- hi i'm [Sandra Hernandez](name)
+- hi im [Amanda Anderson](name)
+- hi mrs rasa
+- hi pal!
+- hi sara
+- hi there
+- hi there it's me
+- hi!
+- hi.........................................................
+- hi?
+- hieee
+- hii
+- hiihihi
+- hiii
+- hlo
+- hola
+- howdy
+- i am [Karen Mease](name)
+- jojojo
+- jop
+- konichiwa
+- merhaba
+- ola sara
+- rasa hello
+- salut
+- sup
+- wasssup
+- wasssup!
+- what up
+- whats popping
+- whats up
+- yo
+- yoo
 
 ## intent:ask_mood
 - i am fine, how are you?
 - how are you?
 - good, how about you?
 - I am fine, how about you?
+- Ahoy matey how are you?
+- Are you ok?
+- Do you feel good?
+- Do you have a great day?
+- HI Sara, what are you up to?
+- Hi Sara! How are you?
+- How are You?
+- How are things?
+- How are you
+- How are you men?
+- How are you today?
+- How are you?
+- How was your day?
+- How you doing?
+- How's it going
+- How's it hanging?
+- How's life treating you friend?
+- How've you been?
+- Hows it going
+- I'm fine and you
+- Is everything ok?
+- What's going on?
+- What's new?
+- What's up
+- What's up man
+- and you
+- are you alright
+- are you happy
+- are you having a good day
+- are you ok
+- are you okay
+- h r u ?
+- hello, how are you?
+- hey how are you?
+- hi how are you?
+- hi how u doing
+- hi sara, how are you?
+- how ?
+- how are things going
+- how are things with you?
+- how are u
+- how are u?
+- how are xou
+- how are you
+- how are you ?
+- how are you doing
+- how are you doing this morning
+- how are you doing today my sweet friend
+- how are you doing today?
+- how are you doing?
+- how are you feeling
+- how are you today
+- how are you'
+- how are you?
+- how are you????
+- how are yuo
+- how do you do?
+- how have you been
+- how is it going
+- how is your day
+- how is your day going
+- how is your evening
+- how r u
+- how r u ?
+- how r u>
+- how you doing
+- how you doing?
+- how's it going?
+- how's life
+- how's life been treating you?
+- how's your day going
+- howareyou
+- hw r u?
+- is everything all right
+- is everything okay
+- nah, I'm good - how are you doing?
+- okay hi how are you?
+- wassup>
+- what about your day
+- what are you up to?
+- what's good
+- what's up
+- what's up sara
+- what's up?
+- whatchcha doing
+- whatchya upto ?
+- whats goin on
+- whats new
+- whatsapp
+- yow are you
 
 ## intent:goodbye
 - bye
@@ -20,11 +255,228 @@
 - see you later
 
 ## intent:affirm
-- yes
-- indeed
+- Accept
+- Awesome!
+- Cool
+- Good
+- Great
+- I accept
+- I accept.
+- I agree
+- I am using it
+- I changed my mind. I want to accept it
+- I do
+- I get it
+- I guess so
+- I have used it in the past
+- I will
+- I'd absolutely love that
+- I'm sure I will!
+- I'm using it
+- Nice
+- OK
+- Ofcourse
+- Oh yes
+- Oh, ok
+- Ok
+- Ok let's start
+- Ok.
+- Okay
+- Okay!
+- PLEASE
+- SURE
+- Sure
+- Sweet
+- That would be great
+- YES
+- YUP
+- Yea
+- Yeah
+- Yeah sure
+- Yep
+- Yep that's fine
+- Yep!
+- Yepp
+- Yes
+- Yes I do
+- Yes please
+- Yes please!
+- Yes, I accept
+- Yes.
+- Yup
+- a little
+- absolutely
+- accept
+- accepted
+- agreed
+- ah ok
+- alright
+- alright, cool
+- amayzing
+- amazing!
+- awesome
+- awesome!
+- confirm
+- cool
+- cool :)
+- cool story bro
+- cool!
+- coolio
+- definitely yes without a doubt
+- done
+- fair enough
+- fcourse
+- fine
+- fuck yeah!
+- go
+- go ahead
+- go for it
+- going super well
+- good
+- good.
+- great
+- great lets do that
+- great!
+- hell yeah
+- hell yes
+- hm, i'd like that
+- how nice!
+- i accept
+- i agree
+- i am!
+- i want that
+- i will!
+- it is ok
+- its okay
+- ja
+- ja cool
+- ja thats great
+- jezz
+- jo
+- k
+- kk
+- lets do it
+- lets do this
+- nice
+- not bad
 - of course
-- that sounds good
-- correct
+- ofcoure i do
+- ofcourse
+- oh awesome!
+- oh cool
+- oh good !!
+- oh super
+- ok
+- ok cool
+- ok fine
+- ok friend
+- ok good
+- ok great
+- ok i accept
+- ok sara
+- ok, I behave now
+- ok, I understood
+- ok, Sara
+- ok...
+- okay
+- okay cool
+- okay sure
+- okay..
+- oki doki
+- okie
+- ook
+- oui
+- perfect
+- please
+- si
+- sort of
+- sure
+- sure thing
+- sure!
+- that is cool
+- that ok
+- that sounds fine
+- that's great
+- thats fine
+- thats good
+- thats great
+- top
+- uh-huh
+- very much
+- well yes
+- y
+- ya
+- ya cool
+- ya go for it
+- ya i want
+- ya please
+- ya thats cool
+- yaah
+- yap
+- yaps
+- yas
+- yay
+- ye
+- ye splease
+- yea
+- yeah
+- yeah do that
+- yeah sure
+- yeah'=
+- yeah, why not
+- yeeeeezzzzz
+- yeeees
+- yep
+- yep i want that
+- yep if i have to
+- yep please
+- yep that's nice
+- yep thats cool
+- yep, will do thank you
+- yep. :/
+- yes
+- yes ...
+- yes I do
+- yes accept please
+- yes baby
+- yes cool
+- yes give me information
+- yes go ahead
+- yes go for it
+- yes great
+- yes i accept
+- yes i agree
+- yes i have built a bot before
+- yes i have!
+- yes it is
+- yes it was okay
+- yes of course
+- yes pleae
+- yes please
+- yes please!
+- yes pls
+- yes sirfr
+- yes that's great
+- yes that's what i want
+- yes you can
+- yes'
+- yes, I'd love to
+- yes, cool
+- yes, give me information, please
+- yes,i am
+- yes.
+- yesh
+- yess
+- yessoo
+- yesss
+- yesssss
+- yesyestyes
+- yesyesyes
+- yez
+- yop
+- you got meme to
+- ys
+- yyeeeh
 
 ## intent:deny
 - no
@@ -33,41 +485,154 @@
 - don't like that
 - no way
 - not really
-
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
-- good
-
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
+- I don't want to
+- I don't want to give it to you
+- I don't want to say
+- I dont want to tell
+- I'm not giving you my email address
+- I'm not going to give it to you
+- NEIN
+- NO
+- NO DON"T WANT THIS!
+- Nah
+- Neither
+- Never
+- Nevermind
+- No
+- No thank you
+- No, not really.
+- No, thank you
+- No.
+- Nopes
+- Not really
+- absolutely not
+- decline
+- definitely not
+- deny
+- i decline
+- i don not like this
+- i don't think so
+- i don't want either of those
+- i don't want to
+- i don't want to give you my email
+- i dont want to
+- i dont want to accept :P lol
+- i guess it means - no
+- i'm afraid not
+- i'm not sure
+- it is going pretty badly
+- it sucks
+- it sux
+- n
+- na
+- nah
+- nah I'm good
+- nah not for me
+- nah, first time
+- nah, i'm good
+- nehi
+- nein
+- neither
+- never
+- never mind
+- no
+- no :(
+- no I dont want
+- no I haven't decided yet if I want to sign up
+- no and no again
+- no bots at all
+- no go
+- no i can't
+- no i don't accept
+- no i dont want to
+- no i dont want to accept :P lol
+- no i won't
+- no ma'am
+- no sir
+- no sorry
+- no thank s
+- no thank you
+- no thanks
+- no way
+- no you did it wrong
+- no!!!!
+- no, i hate it
+- no, my frst time
+- no, thank you
+- no, thanks
+- no, thankyou
+- no. u r idiot
+- non
+- noooooooooo
+- noooooooooooooooooooooooooooooooooooooooo
+- nop
+- nope
+- nope!
+- nope. i am good
+- not going well at all
+- not really
+- not right now
+- not yet
+- nö
+- sorry not right now
+- still dont want to tell
+- thanks but no thanks
+- this sucks
 - very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
+- I do not need help installing
+- I don't wanna tell the name of my company
+- no stop
+- stop it, i do not care!!!
 
 ## intent:bot_challenge
 - are you a bot?
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+- Ar you a bot ?
+- Are you a bot
+- Are you a chat bot?
+- Are you the bot?
+- Hi there, are you the bot?
+- So I'm here Today to ask one very simple question, what are you ?
+- are you a BOT
+- are you a Skynet ?
+- are you a bot
+- are you a bot ?
+- are you a bot?
+- are you a chatbot
+- are you a real bot?
+- are you a robot
+- are you ai
+- are you artificial
+- are you artificial intelligence
+- are you bot
+- are you bot?
+- are you human?
+- are you rasa bot?
+- are you real
+- are you real lol
+- are you really a bot
+- are you robot
+- are you sure that you're a bot?
+- bot?
+- cuz you are a bot
+- i guess you are a chatbot
+- oh are you chatbot?
+- tell me, are you a bot?
+- what are you, a bot?
+- you are a robot
+- you are ai
+- you are chatbot
+- you're a bot
+
 
 ## intent:ask_faq_the_dialog_manager
 - what is this all about?
 - what is the dialog manager?
 - True that! What is this about?
 - Good, thanks! What is this all about?
+- What kind of services are you offering?
 
 ## intent:ask_faq_the_dialog_manager_location
 - where are you located?
@@ -85,11 +650,6 @@
 - what is conversational technology?
 - what the heck is conversational technology?
 
-## intent:give_number
-- my number is [0160 23 71 68 01](phone_number)
-- [017825761947867](phone_number)
-- he can call me on [0151 96696654](phone_number)
-- Ok er soll sich unter der 0541 784733 bei mir melden
 
 ## intent:ask_faq_chatbot
 - What exactly is a chatbot?
@@ -110,6 +670,19 @@
 - That is interesting
 - Tell me more about [rasa](tech_stack)
 - Tell me more about [parloa](tech_stack)
+- can you elaborate
+- could you explain why you need that
+- could you tell me more
+- explain it to me
+- explain that
+- i want more information
+- i would like to know why you need that
+- please elaborate
+- please explain
+- why do you need to know that
+- why is that necessary
+- give me more details
+
 
 ## intent:ask_faq_rasa
 - what is rasa?
@@ -123,16 +696,769 @@
 ## intent:ask_faq_the_dialog_manager_tech
 - /ask_faq_the_dialog_manager_tech
 
-## intent:lang_ger
+## intent:ask_languagesbot
+- Are you familiar with more than one language?
+- Can you communicate in any other languages?
+- Can you speak more than one language?
+- Do you know any other languages?
+- Do you know other languages?
+- Do you speak [german](language)?
+- Do you speak any other languages?
+- Do you understand spanish?
+- How many different languages are you fluent in?
+- How many languages are you familiar with?
+- How many languages can you speak?
+- How many languages do you have knowledge of?
+- How many languages do you know?
+- In what languages are you fluent enough?
+- In which languages are you fluent?
+- In which languages can you speak?
+- Speak any other languages?
+- What are all of the different languages you can speak?
+- What are the languages you can speak?
+- What do you speak?
+- What languages are you fluent in?
+- What languages can you communicate in?
+- What languages can you converse in?
+- What languages can you use?
+- What languages do you know how to use?
+- What languages do you know?
+- What languages do you speak?
+- Which languages are you familiar with?
+- Which languages do you speak?
+- are you bilingual?
+- are you multilingual?
+- can you speak [Spanish](language)?
+- can you speak in [italian](language)?
+- do you know [chinese](language)
+- do you speak [dutch](language)?
+- do you speak [german](language)?
+- do you speak any other languages?
+- how many languages are you fluent in?
+- how many languages do you know?
+- tell me some languages you know?
+- what else do you know besides English?
+- what foreign languages are you fluent in?
+- what foreign languages do you know?
+- what language do you use
+- what languages are you comfortable speaking at?
+- what languages are you familiar with?
+- what languages are you good at speaking?
+- what languages do you know?
+- what languages do you speak
+- what languages you are well versed ?
+- what languages you can be comfortable speaking?
+- what languages you can handle well?
+- what languages you can speak ?
+- what languages you know?
+- what languages you prefer more speaking at?
+- which languages do you understand?
+- you know [French](language)
+
+## intent:out_of_scope_non_english
+- Wie fange ich mit Rasa an?
+- hilf mir beim start
+- tschüssikowski
+- ¿Qué pasa?
+- ça va ?
+- como te llamas
+- wer bist Du?
+- como inicio en rasa
+- come stai?
+- como estas
+- de donde eres
+- de que lugar eres?
+- epdi iruka
+- eres humana
+- kalhmera sara ti kaneis
+- kannst du auch deutsch?
+- kannst du dies auch auf deutsch?
+- oui je besoine de l'aide
+- que puedes hacer?
+- tu parles francais?
+- tudo bom
 - Guten Morgen
 - Guten Tag
 - Ich möchte einen Chatbot kaufen
 - was kostet ein Chabot?
 
-## ask_faq_references
+## intent:ask_faq_references
 - What are your references?
 - Can I see some of your bots?
 - Who are your customers?
 
-## ask_setup_time
-- We are looking for a new chatbot for our [online shop](use_case). The shop is launching in three months. Could you deliver a chatbot within that time frame?
+## intent:ask_setup_time
+- We are looking for a new chatbot for our [online shop](use_case). The shop is launching [in three months](date). Could you deliver a chatbot within that time frame?
+
+## intent:ask_faq_cost
+- How much does a chatbot cost?
+
+## intent:ask_faq_personality
+- We require a [female](gender) bot within a certain age range. How flexible is your bot’s personality?
+- Can we adjust the look and feel of your bot to represent our brand?
+
+## intent:ask_bot_name
+- What is your name?
+
+## intent:ask_faq_voice
+- Can you also speak?
+- can i programm a vocal assistant
+- Can I build a voice bot?
+- Can I use my voice to speak to these bots?
+- Can one make a voice bot?
+- Do you know how to build a voice bot?
+- How can I build a voice bot?
+- How could I construct a voice bot?
+- How to build a voice bot?
+- how to integrate speech to text
+- I'd like to build a voice bot.
+- I'd like to use rasa to build a voice bot.
+- Voice bot
+- What to do if I want to build a voice bot?
+- alexa
+- can I create a voice bot?
+- can I form a voice bot?
+- alexa skills
+- can i build a voice bot
+- do you support alexa voice?
+- i want to build a voice bot
+- voice
+- what is the chance of buil you have speech recognition?
+
+## intent:ask_send_briefing
+- We are looking for a chatbot, we already have a briefing. Can I send that to you?
+
+## intent:ask_faq_low_budget
+- We would love to have a chatbot, but our budget is very limited. Do you offer cheap bots?
+
+## intent:ask_faq_handover
+- Can your bot recognise when it can’t answer a question and automatically handover to a human?
+
+## intent:ask_faq_scraping
+- Can your bot fetch information that it does not already have in its database
+
+## intent:ask_faq_dialects
+- Does your bot understand dialects?
+
+## intent:ask_faq_spelling
+- can your bot autocorrect a humans spelling
+- What happens when users write shitty english?
+
+## intent:ask_faq_function_tech
+- How does a chatbot function?
+- How do you work?
+- How do you function?
+- How are you made?
+
+## intent:ask_builder
+- By whom were you built?
+- Can I ask the name of the people who designed you?
+- Do you know who built you?
+- Do you know who made you?
+- May I ask who invented you?
+- Name the person who built you.
+- Tell me the name of the individual who created you.
+- Tell me the name of the person who built you.
+- Tell me the name of your creator.
+- Tell me who built you.
+- What is the name of your builder?
+- What person built you?
+- Who built you?
+- Who created and built you?
+- Who created you?
+- Who designed you?
+- Who developed and created you?
+- Who developed you?
+- Who fabricated you?
+- Who generated you?
+- Who is it that built you?
+- Who is responsible for making you?
+- Who is the builder of you?
+- Who is the legal owner of you?
+- Who is the name of your builder?
+- Who is the name of your creator?
+- Who is the person responsible for building you?
+- Who is the person that invented you?
+- Who is the person who built you?
+- Who is your creator?
+- Who is your programmer?
+- Who made you?
+- Who modeled you?
+- Who owns you?
+- Who produced you?
+- Who put you together?
+- Who thought to make you?
+- Who was the one that built you?
+- Who was the one who made you?
+- Who was the person that built you?
+- Who was the person that created you?
+- Who was the person that made you?
+- Who was the person who made you?
+- Who was the person who put you together?
+- Who went through the trouble of setting you up?
+- Who were you built by?
+- Who were you created by?
+- Who were you made by?
+- Who's your boss?
+- Who's your builder?
+- and who built u?
+-our owner
+- i want to know the company which generated you
+- i want to know who invented you
+- please tell me the company who created you
+- please tell me who created you
+- tell me more about you
+- tell me more about your creators
+- tell me more about your founders
+- what is the name of the smart engineer who creted you ?
+- where were you made?
+- which company brought you into existence?
+- which company created you?
+- which company invented you?
+- who are created you
+- who are your author?
+- who are your parents
+- who build yoi
+- who built u?
+- who built you
+- who built you?
+- who create you ?
+- who created you
+- who created you?
+- who developed
+- who developed you
+- who do you work for?
+- who had the idea to build you?
+- who had the idea to generate you?
+- who had the idea to make you?
+- who invent you
+- who is behind all this?
+- who is your author
+- who is your boss
+- who is your boss tell me
+- who is your boss?
+- who is your creator
+- who is your creator?
+- who is your daddy
+- who is your employer?
+- who is your father ?
+- who is your mom
+- who is your parent?
+- who made u
+- who made u?
+- who made you
+- who made you?
+- who your author are?
+- who's builder
+- why were you made?
+- you are made by who?
+- you are working for which company?
+
+## intent:ask_time
+- Can you give me the time?
+- Can you tell me the time?
+- Can you tell me what time it is?
+- Can you tell the time?
+- Could you tell me the time, please?
+- Could you tell me the time?
+- Could you tell me what time is it?
+- Do you have the time?
+- Do you know the time?
+- Do you know what time it is?
+- Excuse me, what time is it?
+- Give me the time.
+- Hi, I need the time.
+- I need to know what time it is.
+- Pardon me, but do you know the time?
+- Tell me the time.
+- Time, please!
+- Time?
+- What is the current time?
+- What is the exact time?
+- What is the hour and minute right now?
+- What is the time?
+- What might the time be?
+- What time do we have?
+- What time have we got?
+- What time is it in [Berlin](location)?
+- What time is it right now?
+- What's the current time?
+- What's the time right now?
+- What's the time?
+- Would you tell me what time it is?
+- do you have the time?
+- do you know the current time?
+- tell me the current time.
+- tell me the time it is.
+- tell me the time.
+- tell me what time you have.
+- that's true. do you know what time it is?
+- what is the current time?
+- what is the time ?
+- what is the time in [Sydney](location)?
+- what is the time?
+- what is time in US ?
+- what is time is US ?
+- what is time is USA ?
+- what time do you have?
+- what time is it
+- what time is it?
+- what time it is
+- what's the time
+- whats the time now
+
+## intent:ask_weather
+- Are there any meteorological changes that I need to be aware of?
+- Are we in for a scorcher?
+- Beautiful day, isn't it?
+- Can I ask you something about weather
+- Can we expect any thunderstorms?
+- Do you have good weather?
+- How is the weather today?
+- How is the weather?
+- How is weather today
+- Is it hot or cold?
+- Is it humid out there today?
+- Is it quite breezy outside?
+- Is it raining
+- Is it raining?
+- Looks like a beautiful day hey?
+- Nice day out today?
+- Weather?
+- What is the temperature today?
+- What is the weather at your place?
+- What is the weather for tomorrow?
+- What is the weather in newyork?
+- What's it like out there?
+- What's the weather forecast?
+- What's the weather like over there?
+- What's the weather like where I am right now?
+- What's the weather like?
+- Will I require my raincoat today?
+- Will the skies be clear today?
+- Will we build a snowman today?
+- excellent - is it hot in [Berlin](location)?
+- how is the weather
+- how is the weather ?
+- how is the weather in [berlin](location)?
+- how is the weather?
+- how's the weather ?
+- how's the weather in [berlin](location)
+- how's the weather?
+- how's weather
+- hows the waether
+- hows the weather in bot world
+- hows the weather today in [berlin](location)?
+- is it hot ?
+- is it hot outside ?
+- is it sunny
+- is the sun out where you are?
+- is the sun out where zou are?
+- it is cold
+- temperature?
+- the weather today
+- weatger
+- weather
+- weather?
+- well, if you wish: what about the weather
+- what about the weather in [Lüneburg](location)
+- what is the temperature
+- what is the wather
+- what is the weatehr
+- what is the weather
+- what is the weather in [Berlin](location)
+- what is the weather in [zurich](location)?
+- what is the weather like where you are?
+- what is the weather like?
+- what is the whether today
+- what the wheather like?
+- what"s the weather
+- what's the weather
+- what's the weather like
+- what's the weather like in [LA](location)
+- what's the weather like where you are?
+- what's the weather like?
+- what's the weather today
+- what's the weather today?
+- whats the temperature
+- whats the temperature in [delhi](location)?
+- whats the weather in [berlin](location)?
+- whats the weather like tomorrow?
+- wheather at you location?
+- wheather be like at your place?
+
+## intent:handle_insult
+- FUCK
+- Fuck
+- Fuck Off
+- Fuck off
+- Fuck u
+- Fuck you
+- God you're a moron
+- I can't believe how dumb you are
+- I hate you
+- Loser
+- Stupid
+- You are a fool.
+- You are an idiot.
+- You are dumb.
+- You are shortsighted.
+- You are unintelligent.
+- You are unknowing.
+- You brain is dull.
+- You have no brains.
+- You have no intelligence.
+- You have no sense.
+- You know nothing.
+- You lack intelligence.
+- You lack understanding.
+- You're a dolt.
+- You're a dunce.
+- You're an idiot.
+- You're foolish.
+- Your intelligence is laughable.
+- Your mindset is naive.
+- a baby knows more than you
+- are u dump?
+- are you brain dead?
+- asshole
+- bitch
+- bloody dunce
+- but you are idiot
+- deal with my ass, you bitch
+- f*ck
+- fuck
+- fuck off
+- fuck rasa
+- fuck u
+- fuck you
+- fuck you machine learning bot
+- fuck you sara
+- fuck you!
+- fucking stupid
+- fucking work
+- get lost
+- go away
+- go fuck yourself
+- go to hell
+- how can you be such an idiot?
+- i hate you
+- i hate your dumb face
+- i think that you're a bullshit
+- idiot
+- insult you
+- ok fuck you
+- ok shut up
+- sara you look like a burnt sparrow
+- shit
+- shit bot
+- shut up asshole
+- so dumb
+- so fucking dumb
+- sucker
+- that wasn't very funny
+- thta was a terrible fucking joke
+- u r a piece of junk
+- ur a pussy
+- what fuck
+- yep but you are idiot
+- you are a moron
+- you are a stupid bot
+- you are an idiot
+- you are dumb
+- you are fucking stupid
+- you are fucking stupid guy！
+- you are idiot
+- you are idiotic
+- you are so ignorant
+- you are stupid
+- you are unintelligent
+- you are useless bot
+- you asshole
+- you idiot
+- you idiot bot
+- you son of a bitch
+- you suck
+- you're a loser lmao
+- you're an idiot
+- you're dumb
+- you're not smart
+- you're so dumb
+- you're the most moronic person I know
+- your mom gay
+- you are annoying
+- In my experience, chatbots are pretty stupid.
+
+## intent:human_handoff
+- Can I speak to anyone who can really help me?
+- Could I talk to [Tyrone King](name)?
+- I don't wanna talk to a bot
+- I dont like to talk to a machine
+- I want to talk to a human
+- I want to talk to the founders
+- are there also humans working for your company?
+- can I speak to a person?
+- can i please speak to a human?
+- can you forward me to your team
+- can you please connect me to a real rasa employee?
+- can you put me in touch with a human?
+- do you have human support ?
+- gimme a proper human
+- give me a human
+- give me a human now
+- human handoff
+- i dont wanna talk to a bot
+- i want to speak to a [manager](job_function)
+- i want to speak to a real person
+- i want to speak to customer service
+- i want to talk to a human
+- i want to talk to a person
+- i want to talk to human
+- i want to talk to someone at rasa
+- i want to talk to someone else
+- i want to talk to someone who is smarter than you
+- i would like to speak to a person
+- i'd rather speak with a real rasa employee
+- id like to talk to a real rasa employee
+- let me speak with a real person please
+- let me talk to a human
+- let me talk to a real person
+- please give me a human
+- service agent
+- someone from customer care
+- speak to a real person
+- talking to a bot is stupid
+- that's annoying I'd like to speak to someone real
+- thats not helping, can i talk to human?
+- wrong i want to speak to a human
+
+## intent:signup_newsletter
+- I also want to subscribe
+- I wanna sign up for the newsletter.
+- I want the newsletter
+- I want to sign up for the newsletter
+- I want to sign up for the newsletter.
+- I want to subscribe to your newsletter
+- I want to subscribing to the Rasa newsletter
+- I would like to sign up for the newsletter.
+- I would love to subscribe to a newsletter!
+- I'd like to subscribe
+- I'll subscribe to the newsletter
+- Newsletter
+- Newsletter please.
+- Sign me up for the newsletter.
+- Sign up.
+- Subscribe
+- Subscribe me to the newsletter please!
+- Subscribe me to you newsletter
+- Subscribe newsletter
+- Subscribe to Rasa newsletter
+- add me as your subscriber
+- add me to the newsletter
+- add me to the newsletter list
+- add me to the subscription list
+- but please sign me up for the newsletter!
+- can i get emails from you
+- can i sign up to the newsletter too?
+- can i subscribe to news letter
+- can you add Edward@Paul.com to the newsletter list?
+- can you pelase subscribe me to the newsletter
+- can you sign me up for the newsletter
+- can you subscribe me to the newsletter
+- do the newsletter then
+- first lets sign up for the newsletter
+- get a subscription
+- get newsletter
+- get the latest news from Rasa
+- get the newsletter
+- gimme the newsletter
+- hello sara, can you subscribe me to the newsletter?
+- how about the newsletter
+- how about the newsletter signup
+- how to subdcribe?
+- i also want to sign up for the newsletter
+- i go for the newsletter
+- i just want to signup for our newsletter
+- i just want to signup for your newsletter
+- i need the newsletter
+- i need this dope newsletter
+- i need to be on the newsletter list
+- i prefer to get the newsletter
+- i want newsletter
+- i want on that dope newsletter
+- i want on this dope newsletter - my email is R_Grove@gmail.com
+- i want subscribe
+- i want the newsletter
+- i want to  suscribe
+- i want to be part of the newsletter
+- i want to get the newsletter
+- i want to join the newsletter list
+- i want to join the newsletter mails
+- i want to receive the newsletter emails
+- i want to receive the newsletter from now on
+- i want to receive your nl
+- i want to sign up for the newsletter
+- i want to signup
+- i want to signup for the newsletter
+- i want to signup for the nl
+- i want to signup for your newsletter
+- i want to subscribe
+- i want to subscribe to the newsletter with Joseph_Pyles@yahoo.com
+- i want to subscribe to your newsletter
+- i want to subsribe to the newsletter
+- i would like to join the newsletter
+- i would like to subscribe
+- i would like to subscribe to your newsletter
+- i would love to get the newsletter
+- i would love to receive the rasa newsletter
+- i'd like your newspaper please
+- i'm craving the newsletter
+- id like to receive the newsletter
+- id like to subscribe
+- join that newsletter
+- let's make a subscribtion
+- lets do the newsletter signup
+- lets try the newsletter registration
+- lets try the newsletter signup
+- may i receive the newsletter from now on
+- newletter
+- news
+- newsletter
+- newsletter - my email is Mabel@Brown.com
+- newsletter it is
+- newsletter please
+- newsletter please my email is M_Moore@yahoo.com
+- newsletter pls
+- newsletter registration
+- newsletter registration first
+- newsletter subscription
+- newsletter, here is my email: Marcus.Miller@yahoo.com
+- newslettwr
+- nl
+- now i want to signup for the newsletter
+- oh actually i want to get the newsletter
+- please send me the newsletter
+- please send newsletter to Robert@yahoo.com
+- please sign me up for the newsletter
+- please subscribe me to the newsletter gregory_lilley@yahoo.com
+- please subscribe me to your newsletter
+- register me for the newsletter
+- send me the newsletter
+- sign me up for that newsletter
+- sign me up for the newsletter - my email is Carolyn_Caskey@yahoo.com
+- sign me up for the rasa newsletter
+- sign up
+- sign up for newsletter
+- sign up for the NL
+- sign up newsletter
+- sign up to the newsletter
+- subcribe
+- subscribe
+- subscribe Bruce_harryman@Olsen.com to the newsletter
+- subscribe Denise@gmail.com to the newsletter
+- subscribe me to newsletter
+- subscribe me to the newsletter
+- subscribe my email Evan@Palmer.net to the newsletter
+- subscribe to newsletter
+- subscribe to our newsletter
+- subscribe to the newsletter
+- subscribe to your newsletter
+- subscribing to our newsletter
+- subscrime me
+- subscription newsletter
+- subsribing to our newsletter
+- to make a subscribtion
+- what about signing up for the newsletter?
+- yeaaah lets go for the newsletter
+- yeah how about the newsletter
+- yes I would like to subscribe
+- yes subscribe me
+- yes.I.would.like.to.subscrbe
+
+## intent:telljoke
+- Can you tell a joke?
+- Can you tell me a joke.
+- Come up with a joke you think I'll find funny.
+- Could you please share a joke with me.
+- Could you tell me a joke.
+- Do you have any jokes?
+- Do you know any jokes?
+- Entertain me with a joke.
+- Give me a funny joke.
+- Give me a joke.
+- Give me some comic relief.
+- I need a good joke.
+- I want to hear something funny.
+- Know any jokes?
+- Let's hear a joke from you.
+- Make me laugh.
+- Please tell me a joke.
+- Say something funny.
+- Share a joke with me!
+- Tell joke.
+- Tell me something funny.
+- Tell me something humorous!
+- Tell me something that you think will make me laugh.
+- Tell me the best joke you know.
+- What's a good joke?
+- Will you tell me a joke.
+- Would you share a joke with me.
+- Would you tell me a joke
+- give me a good joke
+- make me laugh with a bad joke
+- make me laugh with a joke
+- say a funny joke
+- say a joke
+- say a joke that's funny
+- say a joke that's so bad it's funny
+- tell me a joke
+- tell me a short joke
+- tell me a story joke
+- tell me something funny, like a joke
+- you can say a jok
+
+## intent:thank
+- Cool. Thanks
+- Great, thanks
+- Thank you
+- Thank you Sara
+- Thank you so much
+- Thank's!
+- Thanks
+- Thanks bot
+- Thanks for that
+- Thanks!
+- amazing, thanks
+- cheers
+- cheers bro
+- cool thank you
+- cool thanks
+- cool, thanks
+- danke
+- great thanks
+- ok thanks
+- ok thanks sara
+- ok thanks!
+- perfect thank you
+- thank u
+- thank you
+- thank you anyways
+- thanks
+- thanks a bunch for everything
+- thanks a lot
+- thanks for forum link, I'll check it out
+- thanks for the help
+- thanks this is great news
+- thanks you
+- thanks!
+- thankyou
+- thnks
+- thx
+- yes thanks
+
+## intent:give_contacts
+- my number is [0160 23 71 68 01](phone_number)
+- [017825761947867](phone_number)
+- he can call me on [0151 96696654](phone_number)
+- Ok er soll sich unter der [0541 784733](phone_number) bei mir melden
+- he can write me at [peter@something.com](email_address)

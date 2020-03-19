@@ -63,7 +63,7 @@
 
 ## New Story
 
-* lang_ger
-    - utter_lang_ger
+* out_of_scope_non_english
+    - utter_wrong_lang
 * give_number
     - utter_goodbye
