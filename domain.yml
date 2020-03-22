@@ -1,5 +1,5 @@
 session_config:
-  session_expiration_time: 0
+  session_expiration_time: 0.0
   carry_over_slots_to_new_session: true
 intents:
 - greet
@@ -100,9 +100,8 @@ responses:
     - title: Learn more (parloa)
       payload: /ask_faq_parloa
   utter_faq_chatbot_consultant:
-  - text: He helps companies to decide whether they should invest into “conversational
-      technologies” and if so, he keeps helping while getting and implementing the
-      technology.
+  - text: We help companies to decide whether they should invest into “conversational
+      technologies” and if so,  keep helping while getting and implementing the technology.
   utter_faq_conversational_technology:
   - text: I am conversational technology. \n\n And so is the google assistant, amazon
       alexa or the voicebot who answers your calls when you ring up your utility company.

@@ -31,7 +31,6 @@
 - Hey bot
 - Heya
 - Heylo
-- Hi
 - Hi Sara
 - Hi Sara!
 - Hi bot
@@ -56,9 +55,7 @@
 - ayyyy whaddup
 - bonjour
 - ey boss
-- good evening
 - good moring
-- good morning
 - greet
 - greetings
 - hai
@@ -72,7 +69,6 @@
 - heelio
 - hell9o
 - hellio
-- hello
 - hello Sara
 - hello everybody
 - hello friend
@@ -91,7 +87,6 @@
 - hellooo
 - helloooo
 - helo
-- hey
 - hey bot
 - hey bot!
 - hey dude
@@ -100,7 +95,6 @@
 - hey rasa
 - hey sara
 - hey ther
-- hey there
 - hey there boy
 - hey there..
 - hey, let's talk
@@ -109,7 +103,6 @@
 - heyho
 - heyo
 - hhola
-- hi
 - hi !
 - hi Mister
 - hi again
@@ -210,7 +203,6 @@
 - how are you feeling
 - how are you today
 - how are you'
-- how are you?
 - how are you????
 - how are yuo
 - how do you do?
@@ -533,9 +525,7 @@
 - nehi
 - nein
 - neither
-- never
 - never mind
-- no
 - no :(
 - no I dont want
 - no I haven't decided yet if I want to sign up
@@ -553,7 +543,6 @@
 - no thank s
 - no thank you
 - no thanks
-- no way
 - no you did it wrong
 - no!!!!
 - no, i hate it
@@ -570,7 +559,6 @@
 - nope!
 - nope. i am good
 - not going well at all
-- not really
 - not right now
 - not yet
 - nö
@@ -599,7 +587,6 @@
 - are you a Skynet ?
 - are you a bot
 - are you a bot ?
-- are you a bot?
 - are you a chatbot
 - are you a real bot?
 - are you a robot
@@ -626,13 +613,13 @@
 - you are chatbot
 - you're a bot
 
-
 ## intent:ask_faq_the_dialog_manager
 - what is this all about?
 - what is the dialog manager?
 - True that! What is this about?
 - Good, thanks! What is this all about?
 - What kind of services are you offering?
+- What is this about?
 
 ## intent:ask_faq_the_dialog_manager_location
 - where are you located?
@@ -649,7 +636,6 @@
 ## intent:ask_faq_conversational_technology
 - what is conversational technology?
 - what the heck is conversational technology?
-
 
 ## intent:ask_faq_chatbot
 - What exactly is a chatbot?
@@ -682,7 +668,6 @@
 - why do you need to know that
 - why is that necessary
 - give me more details
-
 
 ## intent:ask_faq_rasa
 - what is rasa?
@@ -902,7 +887,7 @@
 - Who's your boss?
 - Who's your builder?
 - and who built u?
--our owner
+- our owner
 - i want to know the company which generated you
 - i want to know who invented you
 - please tell me the company who created you
