@@ -1,5 +1,5 @@
 session_config:
-  session_expiration_time: 0.0
+  session_expiration_time: 0
   carry_over_slots_to_new_session: true
 intents:
 - greet
@@ -7,8 +7,6 @@ intents:
 - goodbye
 - affirm
 - deny
-- mood_great
-- mood_unhappy
 - bot_challenge
 - ask_faq_the_dialog_manager
 - ask_faq_chatbot_consultant
@@ -31,7 +29,7 @@ intents:
 - ask_bot_name
 - ask_faq_voice
 - ask_send_briefing
-- intent:ask_faq_low_budget
+- ask_faq_low_budget
 - ask_faq_handover
 - ask_faq_scraping
 - ask_faq_dialects
@@ -46,6 +44,7 @@ intents:
 - telljoke
 - thank
 - give_contacts
+- give_number
 entities:
 - phone_number
 - tech_stack
@@ -57,7 +56,6 @@ entities:
 - name
 - job_function
 - email_address
-
 responses:
   utter_initiate_number:
   - text: Wanna know more?
@@ -147,7 +145,9 @@ responses:
     - title: Learn more (rasa)
       payload: /ask_faq_rasa
   utter_wrong_lang:
-  - text: I currently speak only English. If you have questions you'd prefer to ask in German or Norwegian, give me your phone number or email address and Marcus will get back to you soon.
+  - text: I currently speak only English. If you have questions you'd prefer to ask
+      in German or Norwegian, give me your phone number or email address and Marcus
+      will get back to you soon.
 actions:
 - utter_greet
 - utter_cheer_up
@@ -155,7 +155,6 @@ actions:
 - utter_happy
 - utter_goodbye
 - utter_iamabot
-- action_tell_chuck_norris_joke
 - utter_akward
 - utter_no_feelings
 - utter_initiate_number
