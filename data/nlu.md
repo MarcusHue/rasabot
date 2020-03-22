@@ -249,10 +249,45 @@
 - yow are you
 
 ## intent:goodbye
+- Bye
+- Bye bye
+- adios
+- adios?
 - bye
+- bye .
+- bye :P
+- bye bot
+- bye bye
+- bye bye bot
+- bye for now
+- bye udo
+- bye was nice talking to you
+- bye!
+- byee
+- catch you later
+- ciao
+- cya
+- farewell
+- good bye
+- good bye rasa bot!
+- good night
 - goodbye
-- see you around
-- see you later
+- goodbye.
+- goodnight
+- gotta go
+- k byyye #slay
+- ok Bye
+- ok bye
+- ok, bye
+- ok.bye
+- see u later
+- see ya
+- see you
+- see you . bye
+- take care
+- then bye
+- tlak to you later
+- toodle-oo
 
 ## intent:affirm
 - Accept
@@ -633,11 +668,15 @@
 - True that! What is this about?
 - Good, thanks! What is this all about?
 - What kind of services are you offering?
+- What can I buy from you?
+- What does the dialog manager offer?
+- What do you offer?
+- Which services do you sell?
+- What is this?
 
 ## intent:ask_faq_the_dialog_manager_location
 - where are you located?
 - where is your HQ?
-- /ask_faq_the_dialog_manager_location
 
 ## intent:ask_faq_the_dialog_manager_tech_stack
 - what kind of technologies do you use?
