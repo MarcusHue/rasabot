@@ -84,6 +84,16 @@ responses:
     buttons:
     - title: Learn more
       payload: utter_faq_the_dialog_manager_location
+    custom:
+      - # payload for Slack dropdown menu to choose a game
+  - text: "Which game would you like to play?"
+    buttons:
+    - title: "Chess"
+      payload: '/inform{"game": "chess"}'
+    - title: "Checkers"
+      payload: '/inform{"game": "checkers"}'
+    - title: "Fortnite"
+      payload: '/inform{"game": "fortnite"}'
   utter_faq_the_dialog_manager_location:
   - text: We are located in Norway's heart, in Hamar, to be precise.
     buttons:
