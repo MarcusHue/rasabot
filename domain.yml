@@ -1,5 +1,5 @@
 session_config:
-  session_expiration_time: 0.0
+  session_expiration_time: 0
   carry_over_slots_to_new_session: true
 intents:
 - greet
@@ -16,8 +16,6 @@ intents:
 - learn_more
 - ask_faq_intent
 - ask_faq_the_dialog_manager_location
-- ask_faq_rasa
-- ask_faq_parloa
 - ask_faq_the_dialog_manager_tech
 - ask_languagesbot
 - out_of_scope_non_english
@@ -60,32 +58,25 @@ entities:
 - bot_name
 - job_function
 - email_address
+- user_ame
 slots:
-  date:
-    type: text
-  email_address:
-    type: text
   bot_gender:
     type: categorical
     values:
     - male
     - female
     - non binary
-  user_gender:
-    type: categorical
-    values:
-    - male
-    - female
-    - non binary
+  bot_name:
+    type: text
+  date:
+    type: text
+  email_address:
+    type: text
   job_function:
     type: text
   language:
     type: text
   location:
-    type: text
-  bot_name:
-    type: text
-  user_name:
     type: text
   phone_number:
     type: text
@@ -96,7 +87,14 @@ slots:
     - parloa
   use_case:
     type: text
-
+  user_gender:
+    type: categorical
+    values:
+    - male
+    - female
+    - non binary
+  user_name:
+    type: text
 responses:
   utter_learn_more:
   - text: Wanna know more?
@@ -215,7 +213,6 @@ responses:
       payload: '/choose{"bot_gender": "male"}'
     - title: female
       payload: '/choose{"bot_gender": "female"}'
-
 actions:
 - utter_greet
 - utter_cheer_up
