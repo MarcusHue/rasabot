@@ -184,6 +184,9 @@ responses:
   - text: '... shall we have a chat?'
   - text: '... more the strong and silent type?'
   - text: '... not sure which gender you are?'
+  utter_bot_no_gender:
+  - text: As a bot I am a bot, my gender is more fluid, so you can decide what I shall
+      be.
 actions:
 - utter_greet
 - utter_cheer_up
@@ -210,3 +213,4 @@ actions:
 - utter_learn_more
 - utter_initiate_number
 - utter_start_message
+- utter_bot_no_gender

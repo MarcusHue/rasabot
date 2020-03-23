@@ -69,3 +69,10 @@
 
 * start_conversation
     - utter_start_message
+
+## New Story
+
+* start_conversation
+    - utter_start_message
+* affirm
+    - utter_bot_no_gender
