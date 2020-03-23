@@ -2,63 +2,94 @@ session_config:
   session_expiration_time: 0.0
   carry_over_slots_to_new_session: true
 intents:
-- greet
-- ask_mood
-- goodbye
-- affirm
-- deny
-- bot_challenge
-- ask_faq_the_dialog_manager
-- ask_faq_chatbot_consultant
-- ask_faq_conversational_technology
-- ask_faq_chatbot
-- ask_faq_marcus_who
-- ask_more_information
-- ask_faq_intent
-- ask_faq_the_dialog_manager_location
-- ask_faq_the_dialog_manager_tech_stack
-- ask_faq_rasa
-- ask_faq_parloa
-- ask_faq_the_dialog_manager_tech
-- ask_languagesbot
-- out_of_scope_non_english
-- ask_faq_references
-- ask_setup_time
-- ask_faq_cost
-- ask_faq_personality
-- ask_bot_name
-- ask_faq_voice
-- ask_send_briefing
-- ask_faq_low_budget
-- ask_faq_handover
-- ask_faq_scraping
-- ask_faq_dialects
-- ask_faq_spelling
-- ask_faq_function_tech
-- ask_builder
-- ask_time
-- ask_weather
-- handle_insult
-- human_handoff
-- signup_newsletter
-- telljoke
-- thank
-- give_contacts
-- give_number
+  - greet
+  - ask_mood
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - ask_faq_the_dialog_manager
+  - ask_faq_chatbot_consultant
+  - ask_faq_conversational_technology
+  - ask_faq_chatbot
+  - ask_faq_marcus_who
+  - learn_more
+  - ask_faq_intent
+  - ask_faq_the_dialog_manager_location
+  - ask_faq_rasa
+  - ask_faq_parloa
+  - ask_faq_the_dialog_manager_tech
+  - ask_languagesbot
+  - out_of_scope_non_english
+  - ask_faq_references
+  - ask_setup_time
+  - ask_faq_cost
+  - ask_faq_personality
+  - ask_bot_name
+  - ask_faq_voice
+  - ask_send_briefing
+  - ask_faq_low_budget
+  - ask_faq_handover
+  - ask_faq_scraping
+  - ask_faq_dialects
+  - ask_faq_spelling
+  - ask_faq_function_tech
+  - ask_builder
+  - ask_weather
+  - handle_insult
+  - human_handoff
+  - signup_newsletter
+  - telljoke
+  - thank
+  - give_contacts
+  - give_number
 entities:
-- phone_number
-- tech_stack
-- language
-- use_case
-- date
-- gender
-- location
-- name
-- job_function
-- email_address
+  - phone_number
+  - tech_stack
+  - language
+  - use_case
+  - date
+  - gender
+  - location
+  - name
+  - job_function
+  - email_address
+
+slots:
+  phone_number:
+    type: text
+  tech_stack:
+    type: categorical
+    values:
+    - rasa
+    - parloa
+  use_case:
+    type: text
+  date:
+    type: text
+  gender:
+    type: categorical
+    values:
+    - male
+    - female
+    - non binary
+  location:
+    type: text
+  name: 
+    type: text
+  job_function:
+    type: text
+  email_address:
+    type: text
+  language:
+    type: text
+
 responses:
-  utter_initiate_number:
+  utter_learn_more:
   - text: Wanna know more?
+    buttons:
+    - title: Hell yeah!
+      payload: /learn_more
   utter_ask_number:
   - text: Than give me your phone number, and Marcus will give you a call ;-)
   utter_greet:
@@ -83,21 +114,23 @@ responses:
       to get a chatbot, The Dialog Manager will help along the way.
     buttons:
     - title: Learn more
-      payload: /ask_faq_the_dialog_manager_location
+      payload: /learn_more
+  utter_faq_the_dialog_manager_location:
   - text: We are located in Norway's heart, in Hamar, to be precise.
     buttons:
     - title: Learn more
-      payload: /ask_faq_the_dialog_manager_tech_stack
-  utter_faq_the_dialog_manager_tech_stack:
+      payload: /learn_more
+  utter_faq_the_dialog_manager_tech_stack_1:
   - text: Our tech-stack is two-fold. I am build with rasa (www.rasa.com), which is
-      an awesome open source chatbot framework. Most of our voicebots are build with
-      Parloa (www.parloa.com). Parloa is a probably the best tool when it comes to
+      an awesome open source chatbot framework. 
+  utter_faq_the_dialog_manager_tech_stack_2:
+  - text: Most of our voicebots are build with Parloa (www.parloa.com). Parloa is a probably the best tool when it comes to
       voicebots.
     buttons:
     - title: Learn more (rasa)
-      payload: /ask_faq_rasa
+      payload: /learn_more{"tech_stack":"rasa"}
     - title: Learn more (parloa)
-      payload: /ask_faq_parloa
+      payload: /learn_more{"tech_stack":"parloa"}
   utter_faq_chatbot_consultant:
   - text: We help companies to decide whether they should invest into “conversational
       technologies” and if so,  keep helping while getting and implementing the technology.
@@ -116,7 +149,7 @@ responses:
       your utterances your intention and possible additional informations.
     buttons:
     - title: Learn more
-      payload: /ask_faq_intent
+      payload: /learn_more
   utter_faq_intent:
   - text: Let's take the following example. You are hungry and you want me to get
       you some pizza. As you have no taste at all, you want me to get you a Pizza
@@ -134,14 +167,14 @@ responses:
       Parloa is kinda the opposite approach.
     buttons:
     - title: Learn more (parloa)
-      payload: /ask_faq_parloa
+      payload: /learn_more{"tech_stack":"parloa"}
   utter_faq_parloa:
   - text: Parloa is probably the most user friendly bot builder. At least if you are
       considering to deploy your bot on a voice channel. With Parloa you can go from
       an idea for a simple Amazon Alexa Skill to having it deployed within a day.
     buttons:
     - title: Learn more (rasa)
-      payload: /ask_faq_rasa
+      payload: /learn_more{"tech_stack":"rasa"}
   utter_wrong_lang:
   - text: I currently speak only English. If you have questions you'd prefer to ask
       in German or Norwegian, give me your phone number or email address and Marcus
@@ -155,7 +188,6 @@ actions:
 - utter_iamabot
 - utter_akward
 - utter_no_feelings
-- utter_initiate_number
 - utter_ask_number
 - utter_faq_the_dialog_manager
 - utter_faq_chatbot_consultant
@@ -163,9 +195,11 @@ actions:
 - utter_faq_chatbot
 - utter_faq_chatbot_detail
 - utter_faq_intent
-- utter_faq_the_dialog_manager_tech_stack
+- utter_faq_the_dialog_manager_tech_stack_1
+- utter_faq_the_dialog_manager_tech_stack_2
 - utter_faq_the_dialog_manager_location
 - utter_faq_marcus
 - utter_faq_rasa
 - utter_faq_parloa
 - utter_wrong_lang
+- utter_learn_more

@@ -684,7 +684,7 @@
 - Who is Marcus?
 - Who runs the dialog manager?
 
-## intent:ask_more_information
+## intent:learn_more
 - Tell me more
 - Give me more information
 - That is interesting
@@ -702,18 +702,8 @@
 - why do you need to know that
 - why is that necessary
 - give me more details
-
-## intent:ask_faq_rasa
-- what is rasa?
-- how do you function?
-- /ask_faq_rasa
-
-## intent:ask_faq_parloa
-- what is parloa?
-- /ask_faq_parloa
-
-## intent:ask_faq_the_dialog_manager_tech
-- /ask_faq_the_dialog_manager_tech
+- what is [rasa](tech_stack)
+- what is [parloa](tech_stack)
 
 ## intent:ask_languagesbot
 - Are you familiar with more than one language?
@@ -723,7 +713,7 @@
 - Do you know other languages?
 - Do you speak [german](language)?
 - Do you speak any other languages?
-- Do you understand spanish?
+- Do you understand [spanish](language)?
 - How many different languages are you fluent in?
 - How many languages are you familiar with?
 - How many languages can you speak?
@@ -811,6 +801,8 @@
 
 ## intent:ask_faq_cost
 - How much does a chatbot cost?
+- How expensive are you?
+- How much do we have to pay for a bot?
 
 ## intent:ask_faq_personality
 - We require a [female](gender) bot within a certain age range. How flexible is your bot’s personality?
@@ -818,6 +810,9 @@
 
 ## intent:ask_bot_name
 - What is your name?
+- Who are you?
+- What are you called?
+- How may I call you?
 
 ## intent:ask_faq_voice
 - Can you also speak?
@@ -846,18 +841,27 @@
 
 ## intent:ask_send_briefing
 - We are looking for a chatbot, we already have a briefing. Can I send that to you?
+- Can I send you a briefing?
+- May I send you a briefing for a chatbot project?
 
 ## intent:ask_faq_low_budget
 - We would love to have a chatbot, but our budget is very limited. Do you offer cheap bots?
+- Do you also offer very cheap chatbots?
+- What is the cheapest chatbot I can buy from you?
 
 ## intent:ask_faq_handover
 - Can your bot recognise when it can’t answer a question and automatically handover to a human?
+- If the Chatbot is not sure, can he hand over to a human?
+- Can the chatbot handover to a human, if he is not sure what to answer?
 
 ## intent:ask_faq_scraping
 - Can your bot fetch information that it does not already have in its database
+- Can a chatbot use public information to answer a question?
 
 ## intent:ask_faq_dialects
 - Does your bot understand dialects?
+- Can a bot interpret dialects?
+- Can your bot understand when a user speaks a dialect?
 
 ## intent:ask_faq_spelling
 - can your bot autocorrect a humans spelling
@@ -973,58 +977,6 @@
 - you are made by who?
 - you are working for which company?
 
-## intent:ask_time
-- Can you give me the time?
-- Can you tell me the time?
-- Can you tell me what time it is?
-- Can you tell the time?
-- Could you tell me the time, please?
-- Could you tell me the time?
-- Could you tell me what time is it?
-- Do you have the time?
-- Do you know the time?
-- Do you know what time it is?
-- Excuse me, what time is it?
-- Give me the time.
-- Hi, I need the time.
-- I need to know what time it is.
-- Pardon me, but do you know the time?
-- Tell me the time.
-- Time, please!
-- Time?
-- What is the current time?
-- What is the exact time?
-- What is the hour and minute right now?
-- What is the time?
-- What might the time be?
-- What time do we have?
-- What time have we got?
-- What time is it in [Berlin](location)?
-- What time is it right now?
-- What's the current time?
-- What's the time right now?
-- What's the time?
-- Would you tell me what time it is?
-- do you have the time?
-- do you know the current time?
-- tell me the current time.
-- tell me the time it is.
-- tell me the time.
-- tell me what time you have.
-- that's true. do you know what time it is?
-- what is the current time?
-- what is the time ?
-- what is the time in [Sydney](location)?
-- what is the time?
-- what is time in US ?
-- what is time is US ?
-- what is time is USA ?
-- what time do you have?
-- what time is it
-- what time is it?
-- what time it is
-- what's the time
-- whats the time now
 
 ## intent:ask_weather
 - Are there any meteorological changes that I need to be aware of?
