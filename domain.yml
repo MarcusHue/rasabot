@@ -205,6 +205,7 @@ responses:
     - title: female
       payload: '/choose{"bot_gender": "female"}'
   show_button_rasa:
+  - text:
     buttons:
     - title: Learn more (rasa)
       payload: '/learn_more{"tech_stack": "rasa"}'
