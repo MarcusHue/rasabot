@@ -239,6 +239,11 @@
 - whats new
 - whatsapp
 - yow are you
+- Good. How are you?
+- I'm good. How about you?
+- good, and you?
+- Good, how about you?
+- I am good, how about you?
 
 ## intent:goodbye
 - Bye
@@ -656,6 +661,15 @@
 - Good, thanks! What is this all about?
 - What kind of services are you offering?
 - What is this about?
+- What is this about?\n ?
+- Who is the dialog manager?
+- OK. What is the dialog manager?
+- What's this about?
+- I am good, what is this all about?
+- Good! What is this all about?
+- True that.. What is this about?
+- What is this all about?
+- Interesting, and what is the dialog manager
 
 ## intent:ask_faq_the_dialog_manager_location
 - where are you located?
@@ -684,6 +698,7 @@
 ## intent:ask_faq_marcus_who
 - Who is Marcus?
 - Who runs the dialog manager?
+- True... Who is Marcus?
 
 ## intent:learn_more
 - Tell me more
@@ -980,6 +995,7 @@
 - why were you made?
 - you are made by who?
 - you are working for which company?
+- Who runs this company?
 
 ## intent:ask_weather
 - Are there any meteorological changes that I need to be aware of?
@@ -1446,3 +1462,7 @@
 - [female](bot_gender)
 - I want you to be [male](bot_gender)
 - you should be [female](bot_gender)
+- weird question... i am [female](user_gender)
+
+## intent:ask_more_information
+- tell me more
