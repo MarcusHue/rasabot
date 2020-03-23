@@ -46,23 +46,33 @@ intents:
 - ask_more_information
 - ask_faq_the_dialog_manager_tech_stack
 - start_conversation
+- choose
 entities:
 - phone_number
 - tech_stack
 - language
 - use_case
 - date
-- gender
+- bot_gender
+- user_gender
 - location
-- name
+- user_name
+- bot_name
 - job_function
 - email_address
+- bot_name
 slots:
   date:
     type: text
   email_address:
     type: text
-  gender:
+  bot_gender:
+    type: categorical
+    values:
+    - male
+    - female
+    - non binary
+  user_gender:
     type: categorical
     values:
     - male
@@ -74,7 +84,9 @@ slots:
     type: text
   location:
     type: text
-  name:
+  bot_name:
+    type: text
+  user_name:
     type: text
   phone_number:
     type: text
@@ -85,6 +97,7 @@ slots:
     - parloa
   use_case:
     type: text
+
 responses:
   utter_learn_more:
   - text: Wanna know more?
@@ -187,6 +200,11 @@ responses:
   utter_bot_no_gender:
   - text: As a bot I am a bot, my gender is more fluid, so you can decide what I shall
       be.
+    bottons:
+    - title: male
+      payload: /choose{"bot_gender":"male"}
+    - title: female
+      payload: /choose{"bot_gender":"female"}
 actions:
 - utter_greet
 - utter_cheer_up

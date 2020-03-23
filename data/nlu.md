@@ -81,7 +81,7 @@
 - hello sweet boy
 - hello there
 - hello world
-- hello, my name is [Charles Pfeffer](name)
+- hello, my name is [Charles Pfeffer](user_ame)
 - hello?
 - hello]
 - hellooo
@@ -111,8 +111,8 @@
 - hi friend
 - hi friends
 - hi hi
-- hi i'm [Sandra Hernandez](name)
-- hi im [Amanda Anderson](name)
+- hi i'm [Sandra Hernandez](user_name)
+- hi im [Amanda Anderson](user_name)
 - hi mrs rasa
 - hi pal!
 - hi sara
@@ -128,7 +128,7 @@
 - hlo
 - hola
 - howdy
-- i am [Karen Mease](name)
+- i am [Karen Mease](user_name)
 - jojojo
 - jop
 - konichiwa
@@ -504,7 +504,7 @@
 - you got meme to
 - ys
 - yyeeeh
-- yes, I am quite male
+- yes, I am quite [male](user_gender)
 
 ## intent:deny
 - no
@@ -806,7 +806,7 @@
 - How much do we have to pay for a bot?
 
 ## intent:ask_faq_personality
-- We require a [female](gender) bot within a certain age range. How flexible is your bot’s personality?
+- We require a [female](bot_gender) bot within a certain age range. How flexible is your bot’s personality?
 - Can we adjust the look and feel of your bot to represent our brand?
 
 ## intent:ask_bot_name
@@ -1162,7 +1162,6 @@
 
 ## intent:human_handoff
 - Can I speak to anyone who can really help me?
-- Could I talk to [Tyrone King](name)?
 - I don't wanna talk to a bot
 - I dont like to talk to a machine
 - I want to talk to a human
@@ -1436,3 +1435,9 @@
 
 ## intent:start_conversation
 - *start*
+
+## intent:choose
+- [male](bot_gender)
+- [female](bot_gender)
+- I want you to be [male](bot_gender)
+- you should be [female](bot_gender)
