@@ -4,6 +4,7 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 import requests as re 
 import json
+import time
 
 class TellChuckNorrisJoke(Action):
 
@@ -18,3 +19,15 @@ class TellChuckNorrisJoke(Action):
         dispatcher.utter_message(text=joke)
 
         return []
+
+
+class WaitOneSecond(Action):
+    
+    def name(self) -> Text: 
+        return "wait_one_second"
+
+    def run(self,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        time.sleep(1)
+        return[]

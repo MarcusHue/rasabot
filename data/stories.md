@@ -74,7 +74,7 @@
     - slot{"tech_stack":"rasa"}
 * learn_more
     - utter_faq_the_dialog_manager_tech_stack_1
-    - wait_0_second
+    - wait_one_second
     - utter_faq_the_dialog_manager_tech_stack_2
 * learn_more{"tech_stack":"rasa"}
     - utter_faq_rasa_with_button
