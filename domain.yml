@@ -141,9 +141,9 @@ responses:
       a probably the best tool when it comes to voicebots.
     buttons:
     - title: Learn more (rasa)
-      payload: /learn_more{"tech_stack":"rasa"}
+      payload: '/learn_more{"tech_stack": "rasa"}'
     - title: Learn more (parloa)
-      payload: /learn_more{"tech_stack":"parloa"}
+      payload: '/learn_more{"tech_stack": "parloa"}'
   utter_faq_chatbot_consultant:
   - text: We help companies to decide whether they should invest into “conversational
       technologies” and if so,  keep helping while getting and implementing the technology.
@@ -180,14 +180,14 @@ responses:
       Parloa is kinda the opposite approach.
     buttons:
     - title: Learn more (parloa)
-      payload: /learn_more{"tech_stack":"parloa"}
+      payload: '/learn_more{"tech_stack": "parloa"}'
   utter_faq_parloa:
   - text: Parloa is probably the most user friendly bot builder. At least if you are
       considering to deploy your bot on a voice channel. With Parloa you can go from
       an idea for a simple Amazon Alexa Skill to having it deployed within a day.
     buttons:
     - title: Learn more (rasa)
-      payload: /learn_more{"tech_stack":"rasa"}
+      payload: '/learn_more{"tech_stack": "rasa"}'
   utter_wrong_lang:
   - text: I currently speak only English. If you have questions you'd prefer to ask
       in German or Norwegian, give me your phone number or email address and Marcus
@@ -201,9 +201,9 @@ responses:
       be.
     bottons:
     - title: male
-      payload: /choose{"bot_gender":"male"}
+      payload: '/choose{"bot_gender": "male"}'
     - title: female
-      payload: /choose{"bot_gender":"female"}
+      payload: '/choose{"bot_gender": "female"}'
 actions:
 - utter_greet
 - utter_cheer_up
