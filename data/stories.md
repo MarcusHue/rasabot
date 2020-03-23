@@ -38,14 +38,6 @@
 * ask_faq_intent
   - utter_faq_intent
 
-## FAQ Rasa
-* ask_faq_rasa
-  - utter_faq_rasa
-
-## FAQ Parloa
-* ask_faq_parloa
-  - utter_faq_parloa
-
 ## New Story
 
 * greet

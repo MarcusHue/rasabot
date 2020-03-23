@@ -171,7 +171,7 @@ responses:
       intention) and secondly which sort of pizza you want (the entity)
   utter_faq_marcus:
   - text: Marcus is the actual human being behind The Dialog Manager.
-  utter_faq_rasa:
+  utter_faq_rasa_with_button:
   - text: Rasa is a quite special chatbot framework. As far as I know, it is the only
       one that uses machine learning not only in the NLU but also the dialog management.
       That way you can build significantly more complex bots with rasa. This comes,
@@ -181,13 +181,24 @@ responses:
     buttons:
     - title: Learn more (parloa)
       payload: '/learn_more{"tech_stack": "parloa"}'
-  utter_faq_parloa:
+  utter_faq_rasa_without_button:
+  - text: Rasa is a quite special chatbot framework. As far as I know, it is the only
+      one that uses machine learning not only in the NLU but also the dialog management.
+      That way you can build significantly more complex bots with rasa. This comes,
+      however, at a cost. When you plan to build a chatbot running on the rasa stack,
+      you have to expect that development and testing will take a rather long time.
+      Parloa is kinda the opposite approach.
+  utter_faq_parloa_with_button:
   - text: Parloa is probably the most user friendly bot builder. At least if you are
       considering to deploy your bot on a voice channel. With Parloa you can go from
       an idea for a simple Amazon Alexa Skill to having it deployed within a day.
     buttons:
     - title: Learn more (rasa)
       payload: '/learn_more{"tech_stack": "rasa"}'
+  utter_faq_parloa_without_button:
+  - text: Parloa is probably the most user friendly bot builder. At least if you are
+      considering to deploy your bot on a voice channel. With Parloa you can go from
+      an idea for a simple Amazon Alexa Skill to having it deployed within a day.
   utter_wrong_lang:
   - text: I currently speak only English. If you have questions you'd prefer to ask
       in German or Norwegian, give me your phone number or email address and Marcus
@@ -204,11 +215,7 @@ responses:
       payload: '/choose{"bot_gender": "male"}'
     - title: female
       payload: '/choose{"bot_gender": "female"}'
-  show_button_rasa:
-  - text:
-    buttons:
-    - title: Learn more (rasa)
-      payload: '/learn_more{"tech_stack": "rasa"}'
+
 actions:
 - utter_greet
 - utter_cheer_up
@@ -229,11 +236,12 @@ actions:
 - utter_faq_the_dialog_manager_tech_stack_2
 - utter_faq_the_dialog_manager_location
 - utter_faq_marcus
-- utter_faq_rasa
-- utter_faq_parloa
+- utter_faq_rasa_without_button
+- utter_faq_rasa_with_button
+- utter_faq_parloa_with_button
+- utter_faq_parloa_without_button
 - utter_wrong_lang
 - utter_learn_more
 - utter_initiate_number
 - utter_start_message
 - utter_bot_no_gender
-- show_button_rasa
