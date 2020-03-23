@@ -60,7 +60,6 @@ entities:
 - bot_name
 - job_function
 - email_address
-- bot_name
 slots:
   date:
     type: text
