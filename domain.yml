@@ -204,6 +204,10 @@ responses:
       payload: '/choose{"bot_gender": "male"}'
     - title: female
       payload: '/choose{"bot_gender": "female"}'
+  show_button_rasa:
+    buttons:
+    - title: Learn more (rasa)
+      payload: '/learn_more{"tech_stack": "rasa"}'
 actions:
 - utter_greet
 - utter_cheer_up
@@ -231,3 +235,4 @@ actions:
 - utter_initiate_number
 - utter_start_message
 - utter_bot_no_gender
+- show_button_rasa
