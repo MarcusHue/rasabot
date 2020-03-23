@@ -64,3 +64,8 @@
     - utter_wrong_lang
 * give_number
     - utter_goodbye
+
+## New Story
+
+* start_conversation
+    - utter_start_message

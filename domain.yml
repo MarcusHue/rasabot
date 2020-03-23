@@ -2,60 +2,80 @@ session_config:
   session_expiration_time: 0.0
   carry_over_slots_to_new_session: true
 intents:
-  - greet
-  - ask_mood
-  - goodbye
-  - affirm
-  - deny
-  - bot_challenge
-  - ask_faq_the_dialog_manager
-  - ask_faq_chatbot_consultant
-  - ask_faq_conversational_technology
-  - ask_faq_chatbot
-  - ask_faq_marcus_who
-  - learn_more
-  - ask_faq_intent
-  - ask_faq_the_dialog_manager_location
-  - ask_faq_rasa
-  - ask_faq_parloa
-  - ask_faq_the_dialog_manager_tech
-  - ask_languagesbot
-  - out_of_scope_non_english
-  - ask_faq_references
-  - ask_setup_time
-  - ask_faq_cost
-  - ask_faq_personality
-  - ask_bot_name
-  - ask_faq_voice
-  - ask_send_briefing
-  - ask_faq_low_budget
-  - ask_faq_handover
-  - ask_faq_scraping
-  - ask_faq_dialects
-  - ask_faq_spelling
-  - ask_faq_function_tech
-  - ask_builder
-  - ask_weather
-  - handle_insult
-  - human_handoff
-  - signup_newsletter
-  - telljoke
-  - thank
-  - give_contacts
-  - give_number
+- greet
+- ask_mood
+- goodbye
+- affirm
+- deny
+- bot_challenge
+- ask_faq_the_dialog_manager
+- ask_faq_chatbot_consultant
+- ask_faq_conversational_technology
+- ask_faq_chatbot
+- ask_faq_marcus_who
+- learn_more
+- ask_faq_intent
+- ask_faq_the_dialog_manager_location
+- ask_faq_rasa
+- ask_faq_parloa
+- ask_faq_the_dialog_manager_tech
+- ask_languagesbot
+- out_of_scope_non_english
+- ask_faq_references
+- ask_setup_time
+- ask_faq_cost
+- ask_faq_personality
+- ask_bot_name
+- ask_faq_voice
+- ask_send_briefing
+- ask_faq_low_budget
+- ask_faq_handover
+- ask_faq_scraping
+- ask_faq_dialects
+- ask_faq_spelling
+- ask_faq_function_tech
+- ask_builder
+- ask_weather
+- handle_insult
+- human_handoff
+- signup_newsletter
+- telljoke
+- thank
+- give_contacts
+- give_number
+- ask_more_information
+- ask_faq_the_dialog_manager_tech_stack
+- start_conversation
 entities:
-  - phone_number
-  - tech_stack
-  - language
-  - use_case
-  - date
-  - gender
-  - location
-  - name
-  - job_function
-  - email_address
-
+- phone_number
+- tech_stack
+- language
+- use_case
+- date
+- gender
+- location
+- name
+- job_function
+- email_address
 slots:
+  date:
+    type: text
+  email_address:
+    type: text
+  gender:
+    type: categorical
+    values:
+    - male
+    - female
+    - non binary
+  job_function:
+    type: text
+  language:
+    type: text
+  location:
+    type: text
+  name:
+    type: text
   phone_number:
     type: text
   tech_stack:
@@ -65,25 +85,6 @@ slots:
     - parloa
   use_case:
     type: text
-  date:
-    type: text
-  gender:
-    type: categorical
-    values:
-    - male
-    - female
-    - non binary
-  location:
-    type: text
-  name: 
-    type: text
-  job_function:
-    type: text
-  email_address:
-    type: text
-  language:
-    type: text
-
 responses:
   utter_learn_more:
   - text: Wanna know more?
@@ -122,10 +123,10 @@ responses:
       payload: /learn_more
   utter_faq_the_dialog_manager_tech_stack_1:
   - text: Our tech-stack is two-fold. I am build with rasa (www.rasa.com), which is
-      an awesome open source chatbot framework. 
+      an awesome open source chatbot framework.
   utter_faq_the_dialog_manager_tech_stack_2:
-  - text: Most of our voicebots are build with Parloa (www.parloa.com). Parloa is a probably the best tool when it comes to
-      voicebots.
+  - text: Most of our voicebots are build with Parloa (www.parloa.com). Parloa is
+      a probably the best tool when it comes to voicebots.
     buttons:
     - title: Learn more (rasa)
       payload: /learn_more{"tech_stack":"rasa"}
@@ -179,6 +180,10 @@ responses:
   - text: I currently speak only English. If you have questions you'd prefer to ask
       in German or Norwegian, give me your phone number or email address and Marcus
       will get back to you soon.
+  utter_start_message:
+  - text: '... shall we have a chat?'
+  - text: '... more the strong and silent type?'
+  - text: '... not sure which gender you are?'
 actions:
 - utter_greet
 - utter_cheer_up
@@ -203,3 +208,5 @@ actions:
 - utter_faq_parloa
 - utter_wrong_lang
 - utter_learn_more
+- utter_initiate_number
+- utter_start_message

@@ -977,7 +977,6 @@
 - you are made by who?
 - you are working for which company?
 
-
 ## intent:ask_weather
 - Are there any meteorological changes that I need to be aware of?
 - Are we in for a scorcher?
@@ -1433,3 +1432,6 @@
 - he can call me on [0151 96696654](phone_number)
 - Ok er soll sich unter der [0541 784733](phone_number) bei mir melden
 - he can write me at [peter@something.com](email_address)
+
+## intent:start_conversation
+- *start*
