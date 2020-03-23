@@ -249,5 +249,4 @@ actions:
 - utter_bot_no_gender
 - utter_offer_joke
 - action_tell_chuck_norris_joke
-- wait_one_second
 - utter_confirm_contact
