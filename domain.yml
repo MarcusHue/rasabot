@@ -1,5 +1,5 @@
 session_config:
-  session_expiration_time: 0
+  session_expiration_time: 0.0
   carry_over_slots_to_new_session: true
 intents:
 - greet
@@ -213,6 +213,11 @@ responses:
       payload: '/choose{"bot_gender": "male"}'
     - title: female
       payload: '/choose{"bot_gender": "female"}'
+  utter_offer_joke:
+  - text: Wanna hear a joke?
+  - text: Up for a Chuck Norris joke?
+  utter_confirm_contact:
+  - text: Thanks! Marcus will get back to you.
 actions:
 - utter_greet
 - utter_cheer_up
@@ -242,3 +247,7 @@ actions:
 - utter_initiate_number
 - utter_start_message
 - utter_bot_no_gender
+- utter_offer_joke
+- action_tell_chuck_norris_joke
+- wait_0_second
+- utter_confirm_contact

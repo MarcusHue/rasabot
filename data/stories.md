@@ -68,3 +68,21 @@
     - utter_start_message
 * affirm
     - utter_bot_no_gender
+
+## New Story
+
+    - slot{"tech_stack":"rasa"}
+* learn_more
+    - utter_faq_the_dialog_manager_tech_stack_1
+    - wait_0_second
+    - utter_faq_the_dialog_manager_tech_stack_2
+* learn_more{"tech_stack":"rasa"}
+    - utter_faq_rasa_with_button
+* learn_more{"tech_stack":"parloa"}
+    - slot{"tech_stack":"parloa"}
+    - utter_faq_parloa_without_button
+    - utter_learn_more
+* learn_more
+    - utter_ask_number
+* give_contacts
+    - utter_confirm_contact

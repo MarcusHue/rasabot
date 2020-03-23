@@ -705,6 +705,9 @@
 - give me more details
 - what is [rasa](tech_stack)
 - what is [parloa](tech_stack)
+- /learn_more
+- /learn_more{"tech_stack": "rasa"}
+- /learn_more{"tech_stack": "parloa"}
 
 ## intent:ask_languagesbot
 - Are you familiar with more than one language?
@@ -1432,9 +1435,11 @@
 - he can call me on [0151 96696654](phone_number)
 - Ok er soll sich unter der [0541 784733](phone_number) bei mir melden
 - he can write me at [peter@something.com](email_address)
+- ok 95559664
 
 ## intent:start_conversation
 - *start*
+- /start_conversation
 
 ## intent:choose
 - [male](bot_gender)
