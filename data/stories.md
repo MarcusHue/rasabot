@@ -38,7 +38,7 @@
 * ask_faq_intent
   - utter_faq_intent
 
-## New Story
+## click story
 
 * greet
     - utter_greet
@@ -48,16 +48,17 @@
     - utter_faq_the_dialog_manager_location
 * ask_faq_the_dialog_manager_tech
     - utter_faq_the_dialog_manager_tech_stack_1
+    - wait_one_second
     - utter_faq_the_dialog_manager_tech_stack_2
 
-## New Story
+## Wromg language
 
 * out_of_scope_non_english
     - utter_wrong_lang
 * give_number
     - utter_goodbye
 
-## New Story
+## start conversation
 
 * start_conversation
     - utter_start_message
