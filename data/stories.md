@@ -1,20 +1,4 @@
-## Long Conversation
-* greet
-  - utter_greet
-* ask_mood
-  - utter_akward
-  - utter_no_feelings
-* ask_faq_the_dialog_manager
-  - utter_faq_the_dialog_manager
-* ask_faq_chatbot_consultant
-  - utter_faq_chatbot_consultant
-* ask_faq_conversational_technology
-  - utter_faq_conversational_technology
-  - utter_initiate_number
-* affirm
-  - utter_ask_number
-* give_number
-  - utter_goodbye
+
 
 ## FAQ Chatbot
 * ask_faq_chatbot
@@ -91,3 +75,6 @@
 
 * telljoke
     - action_tell_dad_joke
+
+* tell_fav_breed
+    -action_show_dog

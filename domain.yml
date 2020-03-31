@@ -45,6 +45,7 @@ intents:
 - ask_faq_the_dialog_manager_tech_stack
 - start_conversation
 - choose
+- tell_fav_breed
 entities:
 - phone_number
 - tech_stack
@@ -59,6 +60,7 @@ entities:
 - job_function
 - email_address
 - user_ame
+- fav_breed
 slots:
   bot_gender:
     type: categorical
@@ -94,6 +96,8 @@ slots:
     - female
     - non binary
   user_name:
+    type: text
+  fav_breed:
     type: text
 responses:
   utter_learn_more:
@@ -244,10 +248,10 @@ actions:
 - utter_faq_parloa_without_button
 - utter_wrong_lang
 - utter_learn_more
-- utter_initiate_number
 - utter_start_message
 - utter_bot_no_gender
 - utter_offer_joke
 - action_tell_dad_joke
 - utter_confirm_contact
 - wait_one_second
+- action_show_dog

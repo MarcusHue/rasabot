@@ -1466,3 +1466,10 @@
 
 ## intent:ask_more_information
 - tell me more
+- i want to know more
+- i want to hear more
+
+## intent:tell_fav_breed
+- my favourite breed is [poodle](fav_breed)
+- I really like [huskies](fav_breed)
+- [shepards](fav_breed) are really nice

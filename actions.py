@@ -4,7 +4,7 @@ from rasa_sdk.executor import CollectingDispatcher
 import requests as re 
 import json
 import time
-import api_creds
+import api_creds as ac
 
 class TellDadJoke(Action):
 
@@ -20,7 +20,7 @@ class TellDadJoke(Action):
 
         return []
 
-class ShowDog(Action)
+class ShowDog(Action):
 
     def name(self) -> Text:
         return "action_show_dog"
@@ -29,14 +29,14 @@ class ShowDog(Action)
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        search_string = tracker.get_slot('dog_breed')
+        search_string = tracker.get_slot('fav_breed')
         search_breed_id_url = 'https://api.thedogapi.com/v1/breeds/search?q=' + search_string
         dog = re.get(search_breed_id_url, headers={"x-api-key":ac.dog_key}).json()
         if len(dog) > 1:
             dogs_list = [x['name'] for x in dog]
             buttons = [{'title':dog,'payload':'/fav_breed{"fav_breed":'+dog+"}"} for dog in dogs_list]
             dispatcher.utter_button_message(text='Which breed do you mean?',buttons=buttons)
-        else if len(dog) == 1:
+        elif len(dog) == 1:
             dog = dog[0]
             dog_name = dog['name']
             try:
