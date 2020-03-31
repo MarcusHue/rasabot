@@ -86,3 +86,8 @@
     - utter_ask_number
 * give_contacts
     - utter_confirm_contact
+
+## New Story
+
+* telljoke
+    - action_tell_dad_joke
