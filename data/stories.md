@@ -90,4 +90,4 @@
 ## New Story
 
 * telljoke
-    - action_tell_chuck_norris_joke
+    - action_tell_dad_joke

@@ -1,5 +1,5 @@
 session_config:
-  session_expiration_time: 0.0
+  session_expiration_time: 0
   carry_over_slots_to_new_session: true
 intents:
 - greet
@@ -248,5 +248,6 @@ actions:
 - utter_start_message
 - utter_bot_no_gender
 - utter_offer_joke
-- action_tell_chuck_norris_joke
+- action_tell_dad_joke
 - utter_confirm_contact
+- wait_one_second
